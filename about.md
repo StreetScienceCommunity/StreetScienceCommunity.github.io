@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: About
 ---
 
@@ -53,9 +53,9 @@ We need expertise in fundraising, science, education, communication, interaction
 
 # Get involved
 
-If you think you can help in any of the areas listed above (and we bet you can) or in any of the many areas that we haven't yet thought of (and here we're sure you can) then please check out [our contributors' guidelines]({{ site.github_repository }}/CONTRIBUTING.md) and our [roadmap](roadmap.md).
+If you think you can help in any of the areas listed above (and we bet you can) or in any of the many areas that we haven't yet thought of (and here we're sure you can) then please check out [our contributors' guidelines]({{ site.github_repository }}/blob/master/CONTRIBUTING.md) and our [roadmap](roadmap.md).
 
-Please note that it's very important to us that we maintain a positive and supportive environment for everyone who wants to participate. When you join us we ask that you follow our [code of conduct]({{ site.github_repository }}/CODE_OF_CONDUCT.md) in all interactions both on and offline.
+Please note that it's very important to us that we maintain a positive and supportive environment for everyone who wants to participate. When you join us we ask that you follow our [code of conduct]({{ site.github_repository }}/blob/master/CODE_OF_CONDUCT.md) in all interactions both on and offline.
 
 ## Current Sponsors
 
@@ -65,9 +65,4 @@ Please note that it's very important to us that we maintain a positive and suppo
 
 - [Hein Lab](http://portal.uni-freiburg.de/pharmakologie/ii) for hosting
 
-# Contact us
-
-If you want to report a problem or suggest an enhancement we'd love for you to [open an issue]({{ site.github_repository }}/issues/new) on our github repository because then we can get right on it. B
-
-You can also hang out, ask questions and share stories in the room on [Gitter]({{ site.gitter }}).
 
