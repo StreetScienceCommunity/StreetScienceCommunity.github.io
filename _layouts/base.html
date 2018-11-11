@@ -1,0 +1,23 @@
+---
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{ page.title | default: site.title }}</title>
+        <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css?v=3" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/assets/css/main.css?v=2" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/assets/css/fontawesome.css" | prepend: site.baseurl }}">
+        <meta name="description" content="{{ og_desc | strip_html | truncate: 60}}" />
+        <meta property="title" content="{{ site.title }}" />
+        <meta property="description" content="{{ site.description }}" />
+    </head>
+    <body>
+        {% include _includes/default-header.html %}
+        {{ content }}
+        {% include _includes/default-footer.html %}
+    </body>
+    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+</html>

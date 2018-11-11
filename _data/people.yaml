@@ -1,0 +1,40 @@
+# List of people
+#
+# valid tags: name, email, linkedin, twitter, gitter, orcid
+#
+# collection names should be equal to github username, if not, add github: false tag
+---
+
+bebatut:
+    name: Bérénice Batut
+    twitter: bebatut
+    gitter: bebatut
+
+bgruening:
+    name: Björn Grüning
+    twitter: bjoerngruening
+    gitter: bgruening
+
+DonStephano:
+    name: Stephan Nothjunge
+    twitter: NothSteph
+
+eggzilla:
+    name: Florian Eggenhofer
+    twitter: eggtron
+
+Florian-H-Lab:
+    name: Florian Heyl
+    twitter: Spike_Black_Sun
+
+mmiladi:
+    name: Milad Miladi
+    twitter: MiladMiladi_
+
+teresa-m:
+    name: Teresa Müller
+    twitter: tesamueller
+
+willdurand:
+    name: William Durand
+    twitter: couac
