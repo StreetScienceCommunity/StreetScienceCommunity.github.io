@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="{{ "/assets/css/main.css?v=2" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <meta name="description" content="{{ og_desc | strip_html | truncate: 60}}" />
-        <meta property="title" content="{{ site.title }}" />
-        <meta property="description" content="{{ site.description }}" />
+        <meta property="title" content="Black Science Education" />
+        <meta property="description" content="Black Science Education" />
     </head>
     <body>
         {% include _includes/default-header.html %}
@@ -23,5 +23,7 @@
         </div>
         {% include _includes/default-footer.html %}
     </body>
-    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/jquery.slim.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/popper.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/bootstrap.min.js?v=3" | prepend: site.baseurl }}"></script>
 </html>
