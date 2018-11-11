@@ -1,9 +1,11 @@
 # Settings
 JEKYLL=jekyll
-SITE_URL=http://localhost:4000/
+SITE_BASEURL=black-science-edu
+SITE_URL=http://localhost:4000/black-science-edu
 MINICONDA_URL=https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 SHELL=bash
 RUBY_VERSION=2.4.4
+
 
 ifeq ($(shell uname -s),Darwin)
 	MINICONDA_URL=https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
@@ -41,19 +43,19 @@ install: clean ## install dependencies
 
 serve: ## run a local server
 	( $(ACTIVATE_ENV) && \
-	  ${JEKYLL} serve --strict_front_matter -d _site \
+	  ${JEKYLL} serve --strict_front_matter -d _site/${SITE_BASEURL} \
 	)
 .PHONY: serve
 
 detached-serve: install ## run a local server in detached mode
 	( $(ACTIVATE_ENV) && \
-	  ${JEKYLL} serve --strict_front_matter --detach -d _site \
+	  ${JEKYLL} serve --strict_front_matter --detach -d _site/${SITE_BASEURL} \
 	)
 .PHONY: detached-serve
 
 build: clean ## build files but do not run a server
 	( $(ACTIVATE_ENV) && \
-	  ${JEKYLL} build --strict_front_matter -d _site \
+	  ${JEKYLL} build --strict_front_matter -d _site/${SITE_BASEURL} \
 	)
 .PHONY: build
 

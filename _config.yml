@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Black Science Education
-email: 
+email: email@website.com
 description: > # this means to ignore newlines until "baseurl:"
   Bring science to the public!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bebatut.fr"
+baseurl: "/black-science-edu"
 twitter_username: jekyll
 github_username:  jekyll
-gitter: 
+gitter: https://gitter.im/BackofenLab/citizen_science_group
 github_repository: "https://github.com/bebatut/black-science-edu"
 
 # Where things are
@@ -41,6 +41,12 @@ plugins:
 icon-tag:
   github: fa-github
   twitter: fa-twitter
+
+# site collection
+collections:
+  events:
+    permalink: /event/:path/
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
