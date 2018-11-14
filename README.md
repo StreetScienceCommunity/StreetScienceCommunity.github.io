@@ -1,4 +1,4 @@
-Black Science Education
+StreetScienceCommunity
 =======================
 
 Bring science to the public!
