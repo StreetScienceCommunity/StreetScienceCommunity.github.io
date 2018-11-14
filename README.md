@@ -17,7 +17,7 @@ We are working with teachers, educators and citizens to educate the public about
 
 # Who are we?
 
-The members of the Black Science Education group are scientists from the [University of Freiburg](https://www.uni-freiburg.de/). 
+The members of the Street Science Community are scientists from the [University of Freiburg](https://www.uni-freiburg.de/). 
 
 # What do we need?
 
@@ -34,18 +34,18 @@ Please note that it's very important to us that we maintain a positive and suppo
 # How can I generate the website locally?
 
 1. Open a Terminal
-2. (If not done yet) Clone the training material GitHub repository with `git clone https://github.com/bebatut/black-science-edu.git`
-3. Navigate to the `black-science-edu/` folder with `cd`
+2. (If not done yet) Clone the training material GitHub repository with `git clone https://github.com/StreetScienceCommunity/StreetScienceCommunity.git`
+3. Navigate to the `StreetScienceCommunity/` folder with `cd`
 4. Set up the conda environment
 
     It will install some needed tools (ruby, nodejs, etc) in a protected environment, without interfering with the existing tools or versions.
 
     1. Install conda (if not already installed): `make install-conda`
-    2. Create the `black_science_edu` conda environment: `make create-env`
+    2. Create the `StreetScienceCommunity` conda environment: `make create-env`
 
 4. Install Jekyll and related modules into the conda environment: `make install`
 
     If you encounter an error about libxml2 on Linux, please try to install `libxml2-dev` (executing `sudo apt install libxml2-dev`) if on Debian/Ubuntu or `libxml2-devel` (executing `sudo yum install libxml2-devel`) if on Fedora/RedHat/CentOS, and re-run `make install` .
 
 5. Run a local Jekyll server with `make serve`
-6. Visualize at [http://localhost:4000/black-science-edu/ ](http://localhost:4000/black-science-edu/)
+6. Visualize at [http://localhost:4000/StreetScienceCommunity/ ](http://localhost:4000/StreetScienceCommunity/)
