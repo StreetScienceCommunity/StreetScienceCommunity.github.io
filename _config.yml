@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Black Science Education
+title: Street Science Community
 email: email@website.com
 description: > # this means to ignore newlines until "baseurl:"
   Bring science to the public!
-url: "https://bebatut.fr"
-baseurl: "/black-science-edu"
+url: "https://StreetScienceCommunity.github.io"
+baseurl: ""
 twitter_username: jekyll
 github_username:  jekyll
 gitter: https://gitter.im/BackofenLab/citizen_science_group
-github_repository: "https://github.com/bebatut/black-science-edu"
+github_repository: "https://github.com/StreetScienceCommunity/StreetScienceCommunity.github.io"
 
 # Where things are
 source: .
