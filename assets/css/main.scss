@@ -24,46 +24,6 @@ $mid-gray: #9d9d9d;
 $bg-color: $dark-blue;
 $menu-color: $dark-blue;
 
-// colors tutorial boxes
-$overview-color: #8A9AD0;
-$agenda-color: #86D486;
-$keypoints-color: #FFA1A1;
-$tip-color: #FFE19E;
-$warning-color: #de8875;
-$comment-color: #ffecc1;
-$handson-color: #dfe5f9;
-$question-color: #8A9AD0;
-$solution-color: #B8C3EA;
-$details-color: $light-gray;
-$feedback-color: #86D486;
-
-
-@mixin tutorial-box ($bg-color, $color: rgba(255,255,255,.75)) {
-    margin-top: 3 * $tutorial-box-spacing;
-    padding: $tutorial-box-spacing $tutorial-box-spacing - 0.11rem $tutorial-box-spacing;
-    border: 1px solid $bg-color;
-    box-shadow: 3px 3px $bg-color;
-    & > h3 {
-        font-size: $font-size + 3;
-        margin-left: -$tutorial-box-spacing;
-        margin-right: -$tutorial-box-spacing;
-        margin-top: -3.30rem;
-        padding-top: $tutorial-box-spacing / 2;
-        padding-bottom: $tutorial-box-spacing / 2;
-        padding-left: $tutorial-box-spacing;
-        padding-right: $tutorial-box-spacing;
-        background-color: $bg-color;
-        color: $color;
-        vertical-align: 1em;
-        float: left;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-
-        .fa {
-            padding-right: $tutorial-box-spacing / 5;
-        }
-    }
-}
 
 body {
     font-size: $font-size;
@@ -130,169 +90,6 @@ footer {
         font-size: $font-size + 5;
     }
 
-}
-
-.training-network-map {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.tutorial {
-    & > h1:first-child {
-        margin-bottom: 3rem;
-    }
-
-    table {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        max-width: 100%;
-        margin-bottom: 1rem;
-
-        th,
-        td {
-            padding: .75rem;
-            vertical-align: top;
-            border-top: 1px solid #eceeef;
-        }
-
-        thead th {
-            vertical-align: bottom;
-            border-bottom: 2px solid #eceeef;
-        }
-    }
-
-    // tutorial boxes
-    blockquote {
-        ul,
-        ol,
-        & > blockquote,
-        p {
-            margin-bottom: 0px;
-        }
-
-        &.agenda {
-            @include tutorial-box($agenda-color, $text-color);
-        }
-
-        &.tip {
-            @include tutorial-box($tip-color, $text-color);
-        }
-
-        &.question {
-            @include tutorial-box($question-color, $text-color);
-        }
-
-        &.solution {
-            @include tutorial-box($solution-color, $text-color);
-        }
-
-        &.comment {
-            @include tutorial-box($comment-color, $text-color);
-        }
-
-        &.hands_on {
-            @include tutorial-box($handson-color, $text-color);
-        }
-
-        &.key_points {
-            @include tutorial-box($keypoints-color, $text-color);
-        }
-
-        &.overview {
-            @include tutorial-box($overview-color, $text-color);
-        }
-
-        &.warning-box {
-            @include tutorial-box($warning-color, $text-color);
-        }
-
-        &.details {
-            @include tutorial-box($details-color, $text-color);
-        }
-
-        &.feedback{
-            @include tutorial-box($feedback-color, $text-color);
-        }
-    }
-
-    .fold-unfold {
-        margin-left: $tutorial-box-spacing;
-    }
-
-    .google-form {
-        width: 100%;
-        height: 1100px;
-        border: 0;
-    }
-}
-
-.contributors {
-    padding: 0;
-
-    .carousel-item {
-        align-items: flex-start;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .carousel-item.active,
-    .carousel-item-next,
-    .carousel-item-prev {
-        display: flex;
-    }
-
-    .hall-of-fame-hero {
-        margin: 0;
-        width: 20%;
-
-        .name {
-            font-size: 0.7em;
-        }
-    }
-}
-
-.hall-of-fame {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.hall-of-fame-hero {
-    width: 140px;
-    margin: 1rem;
-    text-align: center;
-
-    .name {
-        margin-top: 0.5rem;
-    }
-
-    .contact-items {
-        margin-top: 0.2rem;
-    }
-
-    .thumbnail img {
-        background-color: white;
-        border-radius: 20px;
-        border: 1px solid $light-gray;
-        padding: 5px;
-        width: 100%;
-        -webkit-transition: border 0.2s ease-in-out;
-        -o-transition: border 0.2s ease-in-out;
-        transition: border 0.2s ease-in-out;
-    }
-
-    a.thumbnail {
-        &:hover,
-        &:focus,
-        &:active {
-            img {
-                border-color: $menu-color;
-            }
-        }
-    }
 }
 
 // This is a fix to get the hamburger button (menu/navbar) correctly placed on
@@ -393,4 +190,25 @@ a {
 
 code {
     color: #8b3035;
+}
+
+
+.index-icons {
+    .fas {
+        font-size: 75px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+.index-p {
+    font-size: 20px;
+    text-transform: uppercase;
 }
