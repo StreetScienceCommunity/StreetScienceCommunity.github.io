@@ -1,6 +1,7 @@
 ---
-layout: base
-title: About
+layout: default
+title: The Street Science Community
+image: about.jpg
 ---
 
 # What are we doing?
@@ -22,8 +23,6 @@ Our main project, [BeerDEcoded]({{ site.baseurl }}/projects/beerdecoded.md), aim
 # Who are we?
 
 We think that knowledge transfer from different domains is crucial for this project hence Street Science Community consists of people with different expertise and skills. Computational- and molecular biology researchers as well as Bioinformaticians and we are all dealing with life-science problems on a daily basis, but from different angles.
-
-![Group picture]({{ site.baseurl }}/assets/img/group_picture.jpg)
 
 {% assign people = site.data['people'] %}
 {% for ind in people %}
