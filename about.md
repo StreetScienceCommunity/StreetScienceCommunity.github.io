@@ -11,20 +11,27 @@ We are working with teachers, educators and citizens to educate the public about
 
 At a time when so many decisions are being made on the basis of science, it is becoming increasingly important to inform the public about the issues at stake. Popularization of science is then important to educate the public about the benefits and implications of the scientific news. It is particularly true for the biotechnologies and DNA sequencing.
 
+At a time where scientific advances happen faster then ever and new technologies enter the market at a unprecedentedly speed, education and clarification becomes a key factor to remove fears and sustain a open society. It is particularly true for the field of biotechnology and molecular biology. Due to the rapid development in this field, more and more citizens get into contact with these techniques. For example personalized medicine, services like 23andMe or AI are entering our daily life. We strive to shed light into scientific blackboxes by facilitating hands-on experience and data analysis with ground-breaking technologies  to make  the scientific process more tangible.
+
 ## The solution
 
-The Black Science Education group aims to bring science to the public. We organize workshops in which pupils, students and citizens manipulate come into contact with sequencing, data-analysis, molecular biology and open science. Our current main project is related to the DNA yeast in beer: [BeerDEcoded]({{ site.baseurl }}/projects/beerdecoded.md)
+The Street Science Community is a voluntary-based non-profit group that aims to bring science to the public. We aim to organize workshops in which pupils, students and citizens come into contact with molecular biology, data-analysis, and open science by extracting, sequencing and analyzing of DNA. 
+
+Our main project, [BeerDEcoded]({{ site.baseurl }}/projects/beerdecoded.md), aims to sensibilize the participants to molecular biology and genomic related research, DNA sequencing and data analysis and the challenges and possibilities that genomics brings to our society.
 
 # Who are we?
 
-The members of the Black Science Education group are scientists from the [University of Freiburg](https://www.uni-freiburg.de/)
+We think that knowledge transfer from different domains is crucial for this project hence Street Science Community consists of people with different expertise and skills. Computational- and molecular biology researchers as well as Bioinformaticians and we are all dealing with life-science problems on a daily basis, but from different angles.
 
 ![Group picture]({{ site.baseurl }}/assets/img/group_picture.jpg)
 
 {% assign people = site.data['people'] %}
 {% for ind in people %}
 {% assign username = ind[0] %}
-- {{ people[username].name }} [<i class="fab fa-github"></i>](https://github.com/{{ username}}) {% if people[username].twitter %} [<i class="fab fa-twitter"></i>](https://twitter.com/{{ people[username].twitter }}) {% endif %}
+- **{{ people[username].name }}** [<i class="fab fa-github"></i>](https://github.com/{{ username}}) {% if people[username].twitter %} [<i class="fab fa-twitter"></i>](https://twitter.com/{{ people[username].twitter }}) {% endif %}
+
+    {{ people[username].description }}
+
 {% endfor %}
 
 ## Our values

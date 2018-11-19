@@ -1,8 +1,4 @@
 ---
-layout: base
+layout: index
 ---
-
-# {{ site.title }}
-
-Welcome!
 
