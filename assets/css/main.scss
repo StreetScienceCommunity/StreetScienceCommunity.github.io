@@ -21,8 +21,8 @@ $purple: #882d60;
 $mid-gray: #9d9d9d;
 
 // colors general
-$bg-color: $dark-blue;
-$menu-color: $dark-blue;
+$bg-color: $white;
+$menu-color: $white;
 
 
 body {
@@ -38,8 +38,15 @@ h4 {
 }
 
 img {
-    max-width: 95%;
+    max-width: 70%;
     margin: 2.5%;
+}
+
+.logo {
+    max-width: 20%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 pre {
@@ -75,6 +82,24 @@ footer {
         align-items: flex-end;
         min-width: 0;
     }
+
+    .navbar-brand,
+    .nav-item .nav-link,
+    .nav-item .dropdown-toggle,
+    .nav-item,
+    .navbar-nav .nav-link,
+    .dropdown-item,
+    .dropdown-toggle,
+    .navbar-nav .show > .nav-link
+    {
+        color: $gray;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-brand:hover {
+        color: rgba($gray, 0.5);
+    }
+
 }
 
 .main-content {
@@ -112,13 +137,13 @@ footer {
         }
 
         .dropdown-item {
-            color: rgba($white, .5);
+            color: rgba($gray, .5);
 
             &:hover,
             &:focus,
             &:active {
                 background-color: transparent;
-                color: rgba($white, .75);
+                color: rgba($gray, .75);
             }
         }
 
@@ -194,6 +219,9 @@ code {
 
 
 .index-icons {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
     .fas {
         font-size: 75px;
         text-align: center;
@@ -211,4 +239,28 @@ code {
 .index-p {
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.flickr {
+    max-width: 640px;
+    max-height: 427px;
+}  
+
+.fullimage-container.titlize {
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.fullimage-container {
+    position: relative;
+    overflow: hidden;
+    width: 120%;
+    margin-left: -100px;
+    margin-right: -90px;
+}
+
+.pagsize {
+    color: #FFFFFF;
+    margin-left: 85px;
+    margin-top: 85px;
 }

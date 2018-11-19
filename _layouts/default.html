@@ -2,6 +2,22 @@
 layout: base
 ---
 
-<h1>{{ page.title }}</h1> 
+{% if page.image %}
+    <div class="fullimage-container  titlize" style="background: url({{ site.baseurl }}/assets/img/{{ page.image }}) center center no-repeat; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+        <div class="container pagsize">
+            <h1>{{ page.title }}</h1>
+
+            {% if page.description %}
+            <p class="index-p">{{ page.description }}</p>
+            {% endif %}
+        </div>
+    </div>
+{% else %}
+    <h1>{{ page.title }}</h1>
+
+    {% if page.description %}
+    <p class="index-p">{{ page.description }}</p>
+    {% endif %}
+{% endif %}
 
 {{ content }}
