@@ -1,4 +1,4 @@
 ---
-layout: event_list
+layout: events
 title: Events
 ---

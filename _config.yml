@@ -12,7 +12,10 @@ github_repo: StreetScienceCommunity/StreetScienceCommunity.github.io
 
 collections:
   events:
-    permalink: /event/:path/
+    permalink: /events/:path/
+    output: true
+  projects:
+    permalink: /projects/:path/
     output: true
   protocols:
     permalink: /protocols/:path/

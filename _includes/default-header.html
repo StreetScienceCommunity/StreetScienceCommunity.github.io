@@ -23,9 +23,9 @@
           <a class="navbar-link"> Projects </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="/projects/beerdecoded">
-              BeerDEcoded
-            </a>
+            {% for page in site.projects %}
+            <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+            {% endfor %}
           </div>
         </div>
 

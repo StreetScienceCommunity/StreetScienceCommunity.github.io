@@ -1,4 +1,5 @@
 ---
+layout: default
 tags: [talk, training]
 title: 'Test of DNA extraction and sequencing'
 starts: 2019-11-10

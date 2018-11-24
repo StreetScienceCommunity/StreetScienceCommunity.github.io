@@ -20,7 +20,7 @@ assign events = site.events | sort:"starts" | reverse %}
         {% for event in events %}
         <tr>
           <td>
-            <h4><a href="{{ post.url }}">{{ event.title | escape }}</a></h4>
+            <h4><a href="{{ event.url }}">{{ event.title | escape }}</a></h4>
             <div>{{ event.excerpt }}</div>
           </td>
           <td>
