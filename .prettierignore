@@ -7,6 +7,7 @@ LICENSE
 # exclude these directories
 /assets/
 /node_modules/
+/_site/
 # white-list files we want to process
 !*.md
 !*.scss
