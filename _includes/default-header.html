@@ -32,15 +32,12 @@
         <a class="navbar-item" href="/events"> Events </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link"> Protocols </a>
+          <a class="navbar-link">Protocols</a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="/protocols/beer_dna_extraction">
-              Beer DNA extraction
-            </a>
-            <a class="navbar-item" href="/protocols/beer_dna_sequencing">
-              Beer DNA sequencing
-            </a>
+            {% for page in site.protocols %}
+            <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+            {% endfor %}
           </div>
         </div>
 
