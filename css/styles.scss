@@ -20,7 +20,7 @@ $link: $orange;
   background-position: 0% 0%, center center;
   background-repeat: repeat, no-repeat;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 80vh;
   min-width: 100%;
 
   &.no-image {
@@ -29,7 +29,7 @@ $link: $orange;
 }
 
 .hero-header-title {
-  padding-top: 25vh;
+  padding-top: 20vh;
   text-align: center;
   text-shadow: 2px 2px 5px rgba(46, 53, 79, 0.9);
 
