@@ -3,6 +3,15 @@
 
 @charset "utf-8";
 
+$summer-bloom: #fbe495;
+$orange: #fcab2c;
+$grey: #323232;
+
+$grey-dark: $grey;
+$primary: $black;
+$link: $orange;
+$body-background-color: $white-bis;
+
 @import '../node_modules/bulma/bulma.sass';
 
 .hero-header {
