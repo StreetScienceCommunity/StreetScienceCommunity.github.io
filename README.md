@@ -1,5 +1,6 @@
 StreetScienceCommunity
 =======================
+Find all the information about our community and projects here: [https://streetsciencecommunity.github.io/about](https://streetsciencecommunity.github.io/about)
 
 Bring science to the public!
 
@@ -17,7 +18,7 @@ We are working with teachers, educators and citizens to educate the public about
 
 # Who are we?
 
-The members of the Street Science Community are scientists from the [University of Freiburg](https://www.uni-freiburg.de/). 
+We think that knowledge transfer from different domains is crucial for this project hence Street Science Community consists of people with different expertise and skills. Computational- and molecular biology researchers as well as Bioinformaticians and we are all dealing with life-science problems on a daily basis, but from different angles.
 
 # What do we need?
 
