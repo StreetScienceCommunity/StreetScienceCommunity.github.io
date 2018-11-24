@@ -19,7 +19,7 @@ This project was started by [Hackarium](http://www.hackuarium.ch/en/beerdecoded/
 
 In Freiburg, we develop a first prototype of the DNA extraction and sequencing protocols using the [Nanopore MinION](https://nanoporetech.com/products/minion), a portable real-time device for DNA sequencing. The results are very promising and the initial feedback is overwhelming. We have successfully identified specific brewing yeast strains from the DNA extracted out of bottled beer. For the data analysis, we create a workflow using Galaxy. This open source, web-based platform makes reproducible computational biology and bioinformatics accessible to anyone with web-access.
 
-To support the workshop, training material (slides, hands-on material, interactive web-tours) are creating to guide our participants from data upload to data analysis. 
+To support the workshop, training material (slides, hands-on material, interactive web-tours) are creating to guide our participants from data upload to data analysis.
 
 The [protocols]({{ site.baseurl }}/protocols) used for the DNA extraction and sequencing, the workflows, the sequencing data, and the training materials are developed in an open collaborative environment, adhering to the open science principles and shared online. We are aiming at providing a template project for other communities around the globe to pursue similar efforts locally.
 

@@ -1,0 +1,13 @@
+# exclude everything by default
+*.*
+# exclude these files
+Dockerfile
+Gemfile
+LICENSE
+# exclude these directories
+/assets/
+/node_modules/
+# white-list files we want to process
+!*.md
+!*.scss
+!*.html

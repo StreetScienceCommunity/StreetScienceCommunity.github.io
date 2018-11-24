@@ -1,0 +1,44 @@
+---
+---
+
+@charset "utf-8";
+
+@import '../node_modules/bulma/bulma.sass';
+
+.hero-header {
+  background-attachment: scroll, fixed;
+  background-clip: border-box, border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-origin: padding-box, padding-box;
+  background-position: 0% 0%, center center;
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  min-width: 100%;
+}
+
+.hero-header-title {
+  padding-top: 25vh;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(46, 53, 79, 0.9);
+
+  h1,
+  p {
+    color: $white;
+  }
+}
+
+.home {
+  .column {
+    text-align: center;
+
+    .icon svg {
+      height: 4em;
+      width: 4em;
+    }
+  }
+
+  @include mobile() {
+    display: none;
+  }
+}

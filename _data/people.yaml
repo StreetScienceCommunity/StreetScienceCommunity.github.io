@@ -10,15 +10,15 @@ bebatut:
     twitter: bebatut
     gitter: bebatut
     description: >
-        Bérénice is a trained bioinformatician with experience in metagenomics and sequencing data analysis. 
-        She is a contributor of the Galaxy community, particularly in the Galaxy Training Network, 
+        Bérénice is a trained bioinformatician with experience in metagenomics and sequencing data analysis.
+        She is a contributor of the Galaxy community, particularly in the Galaxy Training Network,
         and also part of the Carpentries and a Mozilla Open Leaders fellow.
 
 bgruening:
     name: Björn Grüning
     twitter: bjoerngruening
     gitter: bgruening
-    description: > 
+    description: >
         Björn has initiated the Galaxy project in Freiburg and is in charge of the European web server.
 
 DonStephano:
@@ -31,27 +31,27 @@ eggzilla:
     name: Florian Eggenhofer
     twitter: eggtron
     description: >
-        Florian is a trained biologist with a extensive knowledge about computer science. He is a PostDoc 
+        Florian is a trained biologist with a extensive knowledge about computer science. He is a PostDoc
         in Bioinformatics and expert in transcriptomics and genomics.
 
 Florian-H-Lab:
     name: Florian Heyl
     twitter: Spike_Black_Sun
     description: >
-        Florian studied Bioinformatics in his Masters, currently doing his PhD. He has experience in machine 
+        Florian studied Bioinformatics in his Masters, currently doing his PhD. He has experience in machine
         learning and transcriptomics.
 
 foellmelanie:
     name: Melanie Föll
     description: >
-        Melanie is a pharmacist by training and is currently doing her PhD in Proteomics. She manages entire 
-        labs and is self-trained Galaxy data analysis expert and tool developer. 
+        Melanie is a pharmacist by training and is currently doing her PhD in Proteomics. She manages entire
+        labs and is self-trained Galaxy data analysis expert and tool developer.
 
 mmiladi:
     name: Milad Miladi
     twitter: MiladMiladi_
     description: >
-        Milad is a computational biology researcher with experience in transcriptomics analysis and Nanopore 
+        Milad is a computational biology researcher with experience in transcriptomics analysis and Nanopore
         3rd-gen. sequencing technologies.
 
 teresa-m:
@@ -64,7 +64,7 @@ willdurand:
     name: William Durand
     twitter: couac
     description: >
-        William is working for Mozilla on the Add-ons website. He is an open source software evangelist, 
+        William works at Mozilla. He is an open source software evangelist,
         web-developer by heart and deeply involved in the PHP community.
 
 juliuswehler:

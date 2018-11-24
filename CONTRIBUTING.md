@@ -1,5 +1,4 @@
-How to contribute?
-===============
+# How to contribute?
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
@@ -20,23 +19,18 @@ This repository store the sources for the website.
 To add a new event, you will need to manually create an event in the folder `_events`. The metadata for events is a bit more complex, it looks like:
 
 ---
-tags: [talk, training]
-title: "Test of DNA extraction and sequencing"
-starts: 2019-11-10
-ends: 2019-11-10
-location:
-  city: Freiburg
-  region: Baden Würtemberg
-  country: Germany
-supporters:
+
+tags: [talk, training] title: "Test of DNA extraction and sequencing" starts: 2019-11-10 ends: 2019-11-10 location: city: Freiburg region: Baden Würtemberg country: Germany supporters:
+
 - denbi
+
 ---
 
 Here we specify an starts and ends to define the dates of the event. Supplying a location is used in the user's calendar (if it supports it). E.g. when the user adds the event to their google calendar, they will see a map of the location and can easily get directions to it.
 
 # How can I contribute in "advanced" mode?
 
-Most of the content is written in [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) with some metadata (or variables) found in YAML files. Everything is stored on this GitHub repository. 
+Most of the content is written in [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) with some metadata (or variables) found in YAML files. Everything is stored on this GitHub repository.
 
 To manage changes, we use [GitHub flow](https://guides.github.com/introduction/flow/) based on Pull Requests (check our tutorial):
 
@@ -52,6 +46,3 @@ To manage changes, we use [GitHub flow](https://guides.github.com/introduction/f
 # What can I do to help the project?
 
 In issues, you will find lists of issues to fix and features to implement. Feel free to work on them!
-
-
-
