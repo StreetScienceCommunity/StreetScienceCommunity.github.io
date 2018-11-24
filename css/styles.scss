@@ -22,6 +22,10 @@ $link: $orange;
   background-size: cover;
   min-height: 70vh;
   min-width: 100%;
+
+  &.no-image {
+    min-height: 40vh;
+  }
 }
 
 .hero-header-title {
@@ -32,6 +36,15 @@ $link: $orange;
   h1,
   p {
     color: $white;
+  }
+
+  .no-image & {
+    text-shadow: none;
+
+    h1,
+    p {
+      color: $grey-dark;
+    }
   }
 }
 

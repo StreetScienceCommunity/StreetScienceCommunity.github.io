@@ -5,10 +5,11 @@ Dockerfile
 Gemfile
 LICENSE
 # exclude these directories
+/_includes/
+/_layout/
+/_site/
 /assets/
 /node_modules/
-/_site/
 # white-list files we want to process
 !*.md
 !*.scss
-!*.html

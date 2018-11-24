@@ -2,22 +2,15 @@
 layout: base
 ---
 
-{% if page.image %}
-<header
-  class="hero-header"
-  style="background-image: url(/images/{{ page.image }});"
->
+<header class="hero-header{% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: url(/images/{{ page.image }});"{% endif %}>
   <div class="hero-header-title">
-    {% endif %}
-
     <h1 class="title is-1">{{ page.title }}</h1>
 
     {% if page.description %}
-    <p class="subtitle is-3">{{ page.description }}</p>
-    {% endif %} {% if page.image %}
+      <p class="subtitle is-3">{{ page.description }}</p>
+    {% endif %}
   </div>
 </header>
-{% endif %}
 
 <section class="section">
   <div class="container content">{{ content }}</div>
