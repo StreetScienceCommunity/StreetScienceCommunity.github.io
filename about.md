@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Street Science Community
+title: About us
 image: about.jpg
 ---
 
