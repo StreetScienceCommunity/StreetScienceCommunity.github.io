@@ -3,14 +3,53 @@
 
 @charset "utf-8";
 
-$summer-bloom: #fbe495;
-$orange: #fcab2c;
+$beige: #fafaf0;
+$black: #000;
+$dark-red: #820325;
+$dark: #2a2a2a;
 $grey: #323232;
+$red: #E0224C;
 
 $grey-dark: $grey;
-$link: $orange;
+
+$body-background-color: $beige;
+$text: $grey-dark;
+
+$link: $red;
+$link-visited: $link;
+
+$link-hover: $dark-red;
+$link-focus: $link-hover;
+$link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+
+.content {
+  a {
+    border-bottom: 1px solid $link;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 2px solid $link-hover;
+    }
+  }
+}
+
+.footer {
+  background-color: $dark;
+
+  .content {
+    &,
+    & h3 {
+      color: $beige;
+    }
+  }
+}
+
+.table {
+  background-color: transparent;
+}
 
 .hero-header {
   background-attachment: scroll, fixed;
@@ -31,11 +70,11 @@ $link: $orange;
 .hero-header-title {
   padding-top: 20vh;
   text-align: center;
-  text-shadow: 2px 2px 5px rgba(46, 53, 79, 0.9);
+  text-shadow: 2px 2px 5px $dark;
 
   h1,
   p {
-    color: $white;
+    color: $beige;
   }
 
   .no-image & {
@@ -43,7 +82,7 @@ $link: $orange;
 
     h1,
     p {
-      color: $grey-dark;
+      color: $text;
     }
   }
 }
