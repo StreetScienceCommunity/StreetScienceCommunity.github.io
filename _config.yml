@@ -22,7 +22,5 @@ collections:
     output: true
 
 # Build configuration
-sass:
-  sass_dir: css
 plugins:
   - jekyll-seo-tag
