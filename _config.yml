@@ -1,14 +1,13 @@
 # Global metadata
 title: Street Science Community
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Bring science to the public!
-url: "https://streetsciencecommunity.github.io"
 
 # Social
 email: hello@streetscience.community
-github:  StreetScienceCommunity
 gitter: BackofenLab/citizen_science_group
-github_repo: StreetScienceCommunity/StreetScienceCommunity.github.io
+# See: https://help.github.com/articles/repository-metadata-on-github-pages/
+repository: StreetScienceCommunity/StreetScienceCommunity.github.io
 
 collections:
   events:
@@ -20,7 +19,3 @@ collections:
   protocols:
     permalink: /protocols/:path/
     output: true
-
-# Build configuration
-plugins:
-  - jekyll-seo-tag

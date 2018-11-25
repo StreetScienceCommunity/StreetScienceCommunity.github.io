@@ -78,15 +78,13 @@ with the public. We'd love your feedback along the way, and of course.
 If you think you can help in any of the areas listed above (and we bet you can)
 or in any of the many areas that we haven't yet thought of (and here we're sure
 you can) then please check out [our contributors'
-guidelines](https://github.com/{{ site.github_repo
-}}/blob/master/CONTRIBUTING.md) and our [roadmap](https://github.com/{{
-site.github_repo }}/blob/master/roadmap.md).
+guidelines]({{ site.github.repository_url }}/blob/master/CONTRIBUTING.md) and
+our [roadmap]({{ site.github.repository_url }}/blob/master/roadmap.md).
 
 Please note that it's very important to us that we maintain a positive and
 supportive environment for everyone who wants to participate. When you join us
-we ask that you follow our [code of conduct](https://github.com/{{
-site.github_repo }}/blob/master/CODE_OF_CONDUCT.md) in all interactions both on
-and offline.
+we ask that you follow our [code of conduct]({{ site.github.repository_url
+}}/blob/master/CODE_OF_CONDUCT.md) in all interactions both on and offline.
 
 ## Current Sponsors
 

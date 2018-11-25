@@ -12,8 +12,8 @@
           >
           <br />
           <i class="fab fa-github"></i>
-          <a href="https://github.com/{{ site.github_repo }}"
-            >{{ site.github }}</a
+          <a href="{{ site.github.repository_url }}"
+            >{{ site.github.owner_name }}</a
           >
         </p>
       </div>
@@ -21,7 +21,7 @@
         <p>
           If you want to report a problem or suggest an enhancement we'd love
           for you to
-          <a href="https://github.com/{{ site.github_repo }}/issues/new"
+          <a href="{{ site.github.repository_url }}/issues/new"
             >open an issue</a
           >
           on our GitHub repository because then we can get right on it.
