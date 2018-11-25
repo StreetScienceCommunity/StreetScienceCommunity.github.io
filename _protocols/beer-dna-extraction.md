@@ -17,20 +17,33 @@ title: Beer DNA extraction
 - Put a lid on each tube but don’t close them (CO2 needs to be evacuated)
 - Put the tubes (with the lids) in the centrifuge
 - Pre-cool the centrifuge so that it starts at 4℃
-- Run the centrifuge for 10 min at full-speed and 4℃. This step separates the liquid phase and the solid phase (which contains yeast among other things)
-- We take the solid stuff and put them in small tubes with 1ml buffer (tris/buffer 7.4 1M, neutral liquid). Mix what’s inside the tubes with a pipette. Label the tubes.
-- These tubes will go to the centrifuge one more time for about 5 min at full-speed.
-- Take the tubes out of the centrifuge and collect the pellet. Put the pellet into tubes. The next steps (13 to 15) are used to break the cell membranes.
-- Put the tubes into nitrogen (we used something else than nitrogen at -80℃ and with alcohol, an ethanol bath)
-- Add 200µl of lysis buffer (2% Triter X-100, 1% SDS, 10mM NaCl, 10mM Tris HCl, 1mM EDTM) into each tube and suspend them
+- Run the centrifuge for 10 min at full-speed and 4℃. This step separates the
+  liquid phase and the solid phase (which contains yeast among other things)
+- We take the solid stuff and put them in small tubes with 1ml buffer
+  (tris/buffer 7.4 1M, neutral liquid). Mix what’s inside the tubes with a
+  pipette. Label the tubes.
+- These tubes will go to the centrifuge one more time for about 5 min at
+  full-speed.
+- Take the tubes out of the centrifuge and collect the pellet. Put the pellet
+  into tubes. The next steps (13 to 15) are used to break the cell membranes.
+- Put the tubes into nitrogen (we used something else than nitrogen at -80℃ and
+  with alcohol, an ethanol bath)
+- Add 200µl of lysis buffer (2% Triter X-100, 1% SDS, 10mM NaCl, 10mM Tris HCl,
+  1mM EDTM) into each tube and suspend them
 - Repeat 2 times
   - Put the tubes into an ethanol bath for 2 min
   - “Cook” them at 100℃ (boiling water) for 2 min
   - Vortex them for 30s
-- Now we want to extract DNA from the tubes, which also contains buffer and cell garbage (steps 17 to 22). Gist: we add SPRI beads in a buffer containing PEG and NaCl so that the DNA binds to the beads. We use a magnet to capture the beads with the DNA. Then, we wash and repeat pretty much the same step: that time, beads will attach to the tube and the liquid will contain our DNA. In our case, we used an addition kit for this second step.
+- Now we want to extract DNA from the tubes, which also contains buffer and cell
+  garbage (steps 17 to 22). Gist: we add SPRI beads in a buffer containing PEG
+  and NaCl so that the DNA binds to the beads. We use a magnet to capture the
+  beads with the DNA. Then, we wash and repeat pretty much the same step: that
+  time, beads will attach to the tube and the liquid will contain our DNA. In
+  our case, we used an addition kit for this second step.
 - Bind DNA to beads:
   - We combine all the tubes from 15. into one bigger tube.
-  - We need a certain ratio of beads given the DNA we have (1.6), so pretend you do maths with a calculator for 15 sec
+  - We need a certain ratio of beads given the DNA we have (1.6), so pretend you
+    do maths with a calculator for 15 sec
   - Split the sample into two samples (5µl each)
   - Vortex the buffer with beads
   - Mix by pipetting
@@ -52,7 +65,8 @@ title: Beer DNA extraction
   - Remove the liquid from the tube and put the column back
   - Centrifuge for 1 min to dry the column
   - Take the column out into a new tube and add 11µl water
-  - Centrifuge for 1 min to elude the DNA from the column (the liquid into the tube now contains the DNA)
+  - Centrifuge for 1 min to elude the DNA from the column (the liquid into the
+    tube now contains the DNA)
 - We measured the quantity and purity using a spectrophotometer
 - Freeze the DNA until library preparation
 
@@ -60,7 +74,8 @@ title: Beer DNA extraction
 
 - Prepare tubes with 7.5µl DNA extracted as described above and 2.5µl FRA
 - Mix gently
-- Put the tubes into a thermocycler: 1min at 30℃, 1min at 80℃, after on ice until next step
+- Put the tubes into a thermocycler: 1min at 30℃, 1min at 80℃, after on ice
+  until next step
 - Attach an adapter (1µl of RAP) into the tube
 - Mix gently with your fingers
 - Incubate the reaction for 5 min at room temperature

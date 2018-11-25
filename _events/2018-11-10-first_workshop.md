@@ -12,4 +12,5 @@ supporters:
   - denbi
 ---
 
-Today, we had an unofficial kickoff of the project. We poured Beer into the MinION's pores: sequencing yeast extracted from Beer with Nanopore.
+Today, we had an unofficial kickoff of the project. We poured Beer into the
+MinION's pores: sequencing yeast extracted from Beer with Nanopore.
