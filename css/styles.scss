@@ -44,6 +44,10 @@ $link-active: $link-hover;
     & h3 {
       color: $beige;
     }
+
+    a:link {
+      border-bottom: 0;
+    }
   }
 }
 
