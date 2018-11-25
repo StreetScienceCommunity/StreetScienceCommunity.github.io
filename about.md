@@ -4,7 +4,7 @@ title: About us
 image: about.jpg
 ---
 
-# What are we doing?
+## What are we doing?
 
 We are working with teachers, educators and citizens to educate the public about
 open science and particularly with sequencing, data-analysis, molecular biology,
@@ -40,7 +40,7 @@ aims to sensibilize the participants to molecular biology and genomic related
 research, DNA sequencing and data analysis and the challenges and possibilities
 that genomics brings to our society.
 
-# Who are we?
+## Who are we?
 
 We think that knowledge transfer from different domains is crucial for this
 project hence Street Science Community consists of people with different
@@ -66,14 +66,14 @@ We have high ethical standards, including:
 - Responsibility Recognize the complexity and dynamics of living systems and our
   responsibility towards them.
 
-# What do we need?
+## What do we need?
 
 **You!** In whatever way you can help.
 
 We need expertise in fundraising, science, education, communication, interaction
 with the public. We'd love your feedback along the way, and of course.
 
-# Get involved
+## Get involved
 
 If you think you can help in any of the areas listed above (and we bet you can)
 or in any of the many areas that we haven't yet thought of (and here we're sure
