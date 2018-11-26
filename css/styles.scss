@@ -68,12 +68,16 @@ $link-active: $link-hover;
   width: 100%;
 
   &.no-image {
-    min-height: 40vh;
+    height: 180px;
   }
 
   @include tablet() {
     background-attachment: fixed;
     height: 70vh;
+
+    &.no-image {
+      min-height: 40vh;
+    }
   }
 }
 
