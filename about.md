@@ -48,8 +48,12 @@ expertise and skills. Computational- and molecular biology researchers as well
 as Bioinformaticians and we are all dealing with life-science problems on a
 daily basis, but from different angles.
 
-{% for entry in site.data['people'] %} {% assign username = entry[0] %}
-{% include people.html username=username %} {% endfor %}
+<div class="people">
+  {% for entry in site.data['people'] %}
+    {% assign username = entry[0] %}
+    {% include people.html username=username %}
+  {% endfor %}
+</div>
 
 ## Our values
 

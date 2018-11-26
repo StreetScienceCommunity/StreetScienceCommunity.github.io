@@ -14,6 +14,7 @@ $grey-dark: $grey;
 
 // Update bulma colors, globally.
 $white: $beige;
+
 $text: $grey-dark;
 $text-inverted: $white;
 
@@ -25,6 +26,12 @@ $link-focus: $link-hover;
 $link-active: $link-hover;
 
 @import 'bulma/bulma.sass';
+
+.navbar {
+  -webkit-box-shadow: 0 0 12px 0 $grey-dark;
+  -moz-box-shadow: 0 0 12px 0 $grey-dark;
+  box-shadow: 0 0 12px 0 $grey-dark;
+}
 
 .content {
   a {
@@ -117,5 +124,26 @@ $link-active: $link-hover;
 
   @include mobile() {
     display: none;
+  }
+}
+
+.people {
+  @include mobile() {
+    .card {
+      margin-bottom: 1em;
+
+      .media-content {
+        overflow-x: initial;
+      }
+      .media-left {
+        display: none;
+      }
+    }
+  }
+
+  @include tablet() {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 }
