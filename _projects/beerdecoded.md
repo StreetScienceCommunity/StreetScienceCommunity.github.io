@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BeerDEcoded
-image: beerdecoded.jpg
+image: /images/beerdecoded.jpg
 description: Sequencing the DNA of beer
 ---
 

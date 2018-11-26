@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About us
-image: about.jpg
+image: /images/about.jpg
 ---
 
 ## What are we doing?
