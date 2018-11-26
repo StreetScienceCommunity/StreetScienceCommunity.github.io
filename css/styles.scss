@@ -25,12 +25,20 @@ $link-hover: $dark-red;
 $link-focus: $link-hover;
 $link-active: $link-hover;
 
+$navbar-background-color: $beige;
+$navbar-item-hover-background-color: #e5e8dd;
+$navbar-dropdown-item-hover-background-color: #e5e8dd;
+
 @import 'bulma/bulma.sass';
 
 .navbar {
   -webkit-box-shadow: 0 0 12px 0 $grey-dark;
   -moz-box-shadow: 0 0 12px 0 $grey-dark;
   box-shadow: 0 0 12px 0 $grey-dark;
+
+  a {
+    transition: background-color 0.2s ease-in-out;
+  }
 }
 
 .content {
