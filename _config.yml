@@ -1,61 +1,21 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Global metadata
 title: Street Science Community
-email: email@website.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Bring science to the public!
-url: "https://StreetScienceCommunity.github.io"
-baseurl: ""
-twitter_username: jekyll
-github_username:  jekyll
-gitter: https://gitter.im/BackofenLab/citizen_science_group
-github_repository: "https://github.com/StreetScienceCommunity/StreetScienceCommunity.github.io"
 
-# Where things are
-source: .
-destination: ./_site
-plugins_dir: _plugins
-layouts_dir: _layouts
-data_dir: _data
-includes_dir: .
+# Social
+email: hello@streetscience.community
+gitter: BackofenLab/citizen_science_group
+# See: https://help.github.com/articles/repository-metadata-on-github-pages/
+repository: StreetScienceCommunity/StreetScienceCommunity.github.io
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-
-# Icon tag config
-icon-tag:
-  github: fa-github
-  twitter: fa-twitter
-
-# site collection
 collections:
   events:
-    permalink: /event/:path/
+    permalink: /events/:path/
     output: true
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  projects:
+    permalink: /projects/:path/
+    output: true
+  protocols:
+    permalink: /protocols/:path/
+    output: true
