@@ -1,7 +1,7 @@
 # StreetScienceCommunity
 
 Find all the information about our community and projects here:
-[https://streetsciencecommunity.github.io/about](https://streetsciencecommunity.github.io/about)
+[streetscience.community](https://streetscience.community).
 
 Bring science to the public!
 
