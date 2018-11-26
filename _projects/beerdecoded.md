@@ -39,11 +39,11 @@ To support the workshop, training material (slides, hands-on material,
 interactive web-tours) are creating to guide our participants from data upload
 to data analysis.
 
-The [protocols]({{ site.baseurl }}/protocols) used for the DNA extraction and
-sequencing, the workflows, the sequencing data, and the training materials are
-developed in an open collaborative environment, adhering to the open science
-principles and shared online. We are aiming at providing a template project for
-other communities around the globe to pursue similar efforts locally.
+The protocols used for the DNA extraction and sequencing, the workflows, the
+sequencing data, and the training materials are developed in an open
+collaborative environment, adhering to the open science principles and shared
+online. We are aiming at providing a template project for other communities
+around the globe to pursue similar efforts locally.
 
 ## Some pictures
 

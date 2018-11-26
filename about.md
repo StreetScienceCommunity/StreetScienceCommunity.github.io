@@ -35,10 +35,10 @@ bring science to the public. We aim to organize workshops in which pupils,
 students and citizens come into contact with molecular biology, data-analysis,
 and open science by extracting, sequencing and analyzing of DNA.
 
-Our main project, [BeerDEcoded]({{ site.baseurl }}/projects/beerdecoded.md),
-aims to sensibilize the participants to molecular biology and genomic related
-research, DNA sequencing and data analysis and the challenges and possibilities
-that genomics brings to our society.
+Our main project, [BeerDEcoded]({% link _projects/beerdecoded.md %}), aims to
+sensibilize the participants to molecular biology and genomic related research,
+DNA sequencing and data analysis and the challenges and possibilities that
+genomics brings to our society.
 
 ## Who are we?
 
