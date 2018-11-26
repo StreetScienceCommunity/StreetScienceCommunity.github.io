@@ -54,6 +54,7 @@ daily basis, but from different angles.
     {% include people.html username=username %}
   {% endfor %}
 </div>
+
 ## Our values
 
 We have high ethical standards, including:
