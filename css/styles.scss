@@ -12,8 +12,10 @@ $red: #E0224C;
 
 $grey-dark: $grey;
 
-$body-background-color: $beige;
+// Update bulma colors, globally.
+$white: $beige;
 $text: $grey-dark;
+$text-inverted: $white;
 
 $link: $red;
 $link-visited: $link;
@@ -42,7 +44,7 @@ $link-active: $link-hover;
   .content {
     &,
     & h3 {
-      color: $beige;
+      color: $text-inverted;
     }
 
     a {
