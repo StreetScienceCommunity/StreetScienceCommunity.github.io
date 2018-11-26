@@ -2,7 +2,7 @@
 layout: default
 title: Street Science Community
 description: Bring science to the "street"
-image: index.jpg
+image: /images/index.jpg
 ---
 
 {% include home-hero.html %}

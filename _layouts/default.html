@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<header class="hero-header{% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: url(/images/{{ page.image }});"{% endif %}>
+<header class="hero-header{% unless page.image %} no-image{% endunless %}"{% if page.image %} style="background-image: url({{ page.image }});"{% endif %}>
   <div class="hero-header-title">
     <h1 class="title is-1">{{ page.title }}</h1>
 
