@@ -55,15 +55,15 @@ daily basis, but from different angles.
 
 We have high ethical standards, including:
 
-- Education Help educate the public about science and biotechnology, their
+- **Education**: Help educate the public about science and biotechnology, their
   benefits and implications
-- Transparency Emphasize transparency and the sharing of ideas, knowledge, data,
+- **Transparency**: Emphasize transparency and the sharing of ideas, knowledge, data,
   protocols and results.
-- Open science Promote citizen science and decentralized access to science.
-- Modesty Know you don’t know everything.
-- Community Carefully listen to any concerns and questions and respond honestly
-- Respect Respect humans and all living systems.
-- Responsibility Recognize the complexity and dynamics of living systems and our
+- **Open science**: Promote citizen science and decentralized access to science.
+- **Modesty** Know you don't know everything.
+- **Community**: Carefully listen to any concerns and questions and respond honestly
+- **Respect**: Respect humans and all living systems.
+- **Responsibility**: Recognize the complexity and dynamics of living systems and our
   responsibility towards them.
 
 ## What do we need?
