@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beer DNA extraction
-image: protocols/beer-dna-extraction.jpg
+image: /images/protocols/beer-dna-extraction.jpg
 ---
 
 ## Requirements
