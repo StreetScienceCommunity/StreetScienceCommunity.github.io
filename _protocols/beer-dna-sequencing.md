@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beer DNA sequencing
-image: protocols/beer-dna-sequencing.jpg
+image: /images/protocols/beer-dna-sequencing.jpg
 ---
 
 ## Requirements
