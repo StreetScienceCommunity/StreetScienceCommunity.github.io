@@ -83,7 +83,7 @@ $navbar-dropdown-item-hover-background-color: #e5e8dd;
   width: 100%;
 
   &.no-image {
-    height: 180px;
+    height: auto;
   }
 
   @include tablet() {
@@ -107,6 +107,7 @@ $navbar-dropdown-item-hover-background-color: #e5e8dd;
   }
 
   .no-image & {
+    padding-top: 80px;
     text-shadow: none;
 
     h1,
