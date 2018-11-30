@@ -9,7 +9,7 @@ ends: 2019-11-10
 tweet: 'https://twitter.com/i/moments/1068433531829932032?ref_src=twsrc%5Etfw'
 location:
   city: Freiburg
-  region: Baden Würtemberg
+  region: Baden-Württemberg
   country: Germany
 supporters:
   - denbi
@@ -23,7 +23,7 @@ Today, we had an unofficial kickoff of the [BeerDEcoded project]({% link _projec
 We poured Beer into the MinION's pores: sequencing yeast extracted from Beer with Nanopore.
 
 During this day, we reproduced and improved the [DNA extraction protocol]({% link _protocols/beer-dna-extraction.md %})
-that Stephan has developed. We also used for the 1st time our MinION. The results are very 
+that Stephan has developed. We also used for the 1st time our [MinION](nanoporetech.com/products/minion). The results are very 
 promising and the initial feedback is overwhelming. It was a blast to do some wet-lab work, specially as most of us, as bioinformaticians and computer scientists, are not used to it!
 
 {% include five_central_image.html
@@ -36,7 +36,7 @@ promising and the initial feedback is overwhelming. It was a blast to do some we
 
 ## DNA extraction
 
-We used a Chimay red and wanted to extract the DNA of the yeast inside this beer. To do so, we:
+We used a [Chimay red](http://chimay.com/bieres/rouge) and wanted to extract the DNA of the yeast inside this beer. To do so, we:
 
 - Extracted the yeast from the beer with several centrifuge runs
 
@@ -71,11 +71,11 @@ We used a Chimay red and wanted to extract the DNA of the yeast inside this beer
 
 At the end we quickly check the purity with a spectrophotometer and freezed the DNA until library preparation
 
-*The details of the protocol we used can be found in this website: [DNA extraction protocol]({% link _protocols/beer-dna-extraction.md %}).*
+*The details of the extraction protocol we used can be found [here]({% link _protocols/beer-dna-extraction.md %}).*
 
 ## DNA sequencing
 
-During the DNA extracted, we started to play with the MinION with the installation of the Nanopore software and the test of flowcell. We then did the library preparation: preparation of the DNA for sequencing.
+During the DNA extracted, we started to play with the MinION with the installation of the Nanopore software and ran a functional test of the flowcell. We then did the library preparation: preparation of the DNA for sequencing.
 
 {% include four_central_image.html
   image1_path="/images/events/2018-11-10-first_workshop/DSC_6857.jpg"
@@ -84,7 +84,7 @@ During the DNA extracted, we started to play with the MinION with the installati
   image4_path="/images/events/2018-11-10-first_workshop/DSC_6941.jpg"
 %}
 
-We then loaded the MinION with our DNA and launch the sequencing
+We then loaded the MinION with our DNA and launched the sequencing
 
 {% include four_central_image.html
   image1_path="/images/events/2018-11-10-first_workshop/DSC_6951.jpg"
@@ -93,11 +93,11 @@ We then loaded the MinION with our DNA and launch the sequencing
   image4_path="/images/events/2018-11-10-first_workshop/DSC_6981.jpg"
 %}
 
-It was quite exciting. We had long read until 24Kb, but the quality 
+It was quite exciting. We had long reads until 24kb, but the quality 
 started to decrease quite quickly (probably not enough DNA) so we stopped
-it earlier.
+it early after our lunch break.
 
-*The details of the protocol we used can be found in this website: [DNA sequencing protocol]({% link _protocols/beer-dna-sequencing.md %}).*
+*The details of the sequencing protocol we used can be found [here]({% link _protocols/beer-dna-sequencing.md %}).*
 
 Milad then analyzed the generated sequences and extracted some *Saccharomyces cerevisae*.
 
@@ -119,7 +119,7 @@ We will make special efforts in making the protocols accessible and understandab
 by everyone, with graphics supporting each step and explaining their importance and 
 their execution. 
 
-For the data analysis, a dedicated workflow will be available via [Galaxy](). 
+For the data analysis, a dedicated workflow will be available via Galaxy. 
 This open source, web-based platform makes reproducible computational biology and 
 bioinformatics accessible to anyone via a web-browser. 
 
@@ -131,8 +131,4 @@ from data upload to data analysis.
 
 As the aim of this project is to share our knowledge with the public, we will 
 organize two-day "DNA extraction, sequencing and data analysis" workshops, 
-one in March at a local biotechnology high school, and one in July for a larger audience. 
-
-
-
-
+one at a local biotechnology high school, and one for a larger audience. 
