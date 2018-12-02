@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if page.tweet %}
+<h2>Check out more on Twitter</h2>
+<p class="has-text-centered">
+    <a class="twitter-moment" href="{{ page.tweet }}">{{ page.title }}</a>
+</p>
+{% endif %}
+
+{% if page.photos %}
+<p><i>{{ page.photos.license }} pictures from <a href="{{ page.photos.link }}">{{ page.photos.name }}</a></i></p>
+{% endif %}
