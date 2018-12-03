@@ -156,3 +156,20 @@ $navbar-dropdown-item-hover-background-color: #e5e8dd;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 }
+
+.event {
+  .event-credits {
+    border-top: 2px solid $red;
+    font-style: italic;
+    margin-top: 3em;
+    padding-top: 1em;
+  }
+
+  .event-twitter-moment {
+    & > p {
+      margin: 0 auto;
+      max-width: 550px;
+      text-align: center;
+    }
+  }
+}
