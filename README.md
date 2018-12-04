@@ -1,3 +1,6 @@
+[![Gitter](https://badges.gitter.im/usegalaxy-eu/streetscience.svg)](https://gitter.im/usegalaxy-eu/streetscience?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
+
+
 # StreetScienceCommunity
 
 Find all the information about our community and projects at [streetscience.community](https://streetscience.community).
