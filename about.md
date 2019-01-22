@@ -90,6 +90,11 @@ supportive environment for everyone who wants to participate. When you join us
 we ask that you follow our [code of conduct]({{ site.github.repository_url
 }}/blob/master/CODE_OF_CONDUCT.md) in all interactions both on and offline.
 
+### Want to join the Street Science Community and participate in the upcoming events?
+
+You are very welcomed and invited to join the community and participate in the upcoming events. You can fill the [participation form]({{ site.participation_form }})
+to get involved or simply contact us at [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or chat with us on [Gitter](https://gitter.im/{{ site.gitter }})
+
 ## Current Sponsors
 
 - [de.NBI](https://www.denbi.de/): the German Network for Bioinformatics
