@@ -173,3 +173,14 @@ $navbar-dropdown-item-hover-background-color: #e5e8dd;
     }
   }
 }
+
+.events {
+  .google-calendar {
+    margin-top: 1em;
+
+    iframe {
+      height: 400px;
+      width: 100%;
+    }
+  }
+}
