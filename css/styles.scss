@@ -119,3 +119,9 @@ $link-active: $link-hover;
     display: none;
   }
 }
+
+.navbar-item {
+  img {
+    max-height: 2.5rem;
+  }
+}
