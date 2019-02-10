@@ -39,6 +39,12 @@ $navbar-dropdown-item-hover-background-color: #e5e8dd;
   a {
     transition: background-color 0.2s ease-in-out;
   }
+  
+  .navbar-item {
+    img {
+      max-height: 2.5rem;
+    }
+  }
 }
 
 .content {
