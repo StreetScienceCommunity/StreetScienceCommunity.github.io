@@ -14,6 +14,7 @@ $grey-dark: $grey;
 
 // Update bulma colors, globally.
 $white: $beige;
+
 $text: $grey-dark;
 $text-inverted: $white;
 
@@ -24,7 +25,27 @@ $link-hover: $dark-red;
 $link-focus: $link-hover;
 $link-active: $link-hover;
 
+$navbar-background-color: $beige;
+$navbar-item-hover-background-color: #e5e8dd;
+$navbar-dropdown-item-hover-background-color: #e5e8dd;
+
 @import 'bulma/bulma.sass';
+
+.navbar {
+  -webkit-box-shadow: 0 0 12px 0 $grey-dark;
+  -moz-box-shadow: 0 0 12px 0 $grey-dark;
+  box-shadow: 0 0 12px 0 $grey-dark;
+
+  a {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .navbar-item {
+    img {
+      max-height: 2.5rem;
+    }
+  }
+}
 
 .content {
   a {
@@ -68,7 +89,7 @@ $link-active: $link-hover;
   width: 100%;
 
   &.no-image {
-    height: 180px;
+    height: auto;
   }
 
   @include tablet() {
@@ -92,6 +113,7 @@ $link-active: $link-hover;
   }
 
   .no-image & {
+    padding-top: 80px;
     text-shadow: none;
 
     h1,
@@ -120,8 +142,51 @@ $link-active: $link-hover;
   }
 }
 
-.navbar-item {
-  img {
-    max-height: 2.5rem;
+.people {
+  @include mobile() {
+    .card {
+      margin-bottom: 1em;
+
+      .media-content {
+        overflow-x: initial;
+      }
+      .media-left {
+        display: none;
+      }
+    }
+  }
+
+  @include tablet() {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+
+.event {
+  .event-credits {
+    border-top: 2px solid $red;
+    font-style: italic;
+    margin-top: 3em;
+    padding-top: 1em;
+  }
+
+  .event-twitter-moment {
+    & > p {
+      margin: 0 auto;
+      max-width: 550px;
+      text-align: center;
+    }
+  }
+}
+
+.events {
+  .google-calendar {
+    margin-top: 1em;
+
+    iframe {
+      height: 400px;
+      width: 100%;
+    }
   }
 }

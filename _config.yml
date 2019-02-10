@@ -5,9 +5,10 @@ description: >
 
 # Social
 email: hello@streetscience.community
-gitter: BackofenLab/citizen_science_group
+gitter: usegalaxy-eu/streetscience
 # See: https://help.github.com/articles/repository-metadata-on-github-pages/
 repository: StreetScienceCommunity/StreetScienceCommunity.github.io
+participation_form: https://docs.google.com/forms/d/e/1FAIpQLScNgEDWoftccrUHXhsAOgLCFiG1FAQzQxsSW44uDTrEKwZ7_A/viewform
 
 collections:
   events:

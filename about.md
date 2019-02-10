@@ -35,10 +35,10 @@ bring science to the public. We aim to organize workshops in which pupils,
 students and citizens come into contact with molecular biology, data-analysis,
 and open science by extracting, sequencing and analyzing of DNA.
 
-Our main project, [BeerDEcoded]({{ site.baseurl }}/projects/beerdecoded.md),
-aims to sensibilize the participants to molecular biology and genomic related
-research, DNA sequencing and data analysis and the challenges and possibilities
-that genomics brings to our society.
+Our main project, [BeerDEcoded]({% link _projects/beerdecoded.md %}), aims to
+sensibilize the participants to molecular biology and genomic related research,
+DNA sequencing and data analysis and the challenges and possibilities that
+genomics brings to our society.
 
 ## Who are we?
 
@@ -48,8 +48,12 @@ expertise and skills. Computational- and molecular biology researchers as well
 as Bioinformaticians and we are all dealing with life-science problems on a
 daily basis, but from different angles.
 
-{% for entry in site.data['people'] %} {% assign username = entry[0] %}
-{% include people.html username=username %} {% endfor %}
+<div class="people">
+  {% for entry in site.data['people'] %}
+    {% assign username = entry[0] %}
+    {% include people.html username=username %}
+  {% endfor %}
+</div>
 
 ## Our values
 
@@ -85,6 +89,11 @@ Please note that it's very important to us that we maintain a positive and
 supportive environment for everyone who wants to participate. When you join us
 we ask that you follow our [code of conduct]({{ site.github.repository_url
 }}/blob/master/CODE_OF_CONDUCT.md) in all interactions both on and offline.
+
+### Want to join the Street Science Community and participate in the upcoming events?
+
+You are very welcomed and invited to join the community and participate in the upcoming events. You can fill the [participation form]({{ site.participation_form }})
+to get involved or simply contact us at [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or chat with us on [Gitter](https://gitter.im/{{ site.gitter }})
 
 ## Current Sponsors
 

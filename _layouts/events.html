@@ -1,5 +1,6 @@
 ---
 layout: default
+css: events
 ---
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} {%
@@ -11,9 +12,9 @@ assign events = site.events | sort:"starts" | reverse %}
       <thead>
         <tr>
           <th>Topic/Event</th>
-          <th>Starts</th>
-          <th>Ends</th>
-          <th>Location</th>
+          <th class="is-hidden-mobile">Starts</th>
+          <th class="is-hidden-mobile">Ends</th>
+          <th class="is-hidden-mobile">Location</th>
         </tr>
       </thead>
       <tbody>
@@ -23,17 +24,17 @@ assign events = site.events | sort:"starts" | reverse %}
             <h4><a href="{{ event.url }}">{{ event.title | escape }}</a></h4>
             <div>{{ event.excerpt }}</div>
           </td>
-          <td>
+          <td class="is-hidden-mobile">
             <span class="text-nowrap"
               >{{ event.starts | date: date_format }}</span
             >
           </td>
-          <td>
+          <td class="is-hidden-mobile">
             <span class="text-nowrap"
               >{{ event.ends | date: date_format }}</span
             >
           </td>
-          <td>
+          <td class="is-hidden-mobile">
             {% if event.location.city %} {{ event.location.city }}, {% endif %}
             {{ event.location.country }}
           </td>
@@ -42,4 +43,9 @@ assign events = site.events | sort:"starts" | reverse %}
       </tbody>
     </table>
   </div>
+
+  <div class="col-md-12 google-calendar">
+    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=crf6ia4o36v37bao269752hdpg%40group.calendar.google.com&amp;color=%23865A5A" ></iframe>
+  </div>
+
 </section>

@@ -13,5 +13,7 @@ layout: base
 </header>
 
 <section class="section">
-  <div class="container content {{ page.css }}">{{ content }}</div>
+  <div class="container content {{ layout.css }} {{ page.css }}">
+    {{ content }}
+  </div>
 </section>
