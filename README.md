@@ -1,15 +1,14 @@
-[![Gitter](https://badges.gitter.im/usegalaxy-eu/streetscience.svg)](https://gitter.im/usegalaxy-eu/streetscience?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
-
-
 # StreetScienceCommunity
 
-Find all the information about our community and projects at [streetscience.community](https://streetscience.community).
+Find all the information about our community and projects at
+[streetscience.community](https://streetscience.community).
 
-Our dedicated Galaxy server to perform all kind of data analysis can be accessed at https://streetscience.usegalaxy.eu 
+Our dedicated Galaxy server to perform all kind of data analysis can be accessed
+at https://streetscience.usegalaxy.eu. 
 
-Bring science to the public!
+**Bring science to the public!**
 
-Gitter channel?
+[![Gitter](https://badges.gitter.im/usegalaxy-eu/streetscience.svg)](https://gitter.im/usegalaxy-eu/streetscience?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
 
 ## Welcome!
 
