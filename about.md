@@ -97,6 +97,11 @@ to get involved or simply contact us at [{{ site.email|replace:'@','[at]' }}](ma
 
 ## Current Sponsors
 
-- [de.NBI](https://www.denbi.de/): the German Network for Bioinformatics
-  Infrastructure helped us by funding the MinION
-- [Hein Lab](http://portal.uni-freiburg.de/pharmakologie/ii) for hosting
+Funding
+- [Mozilla](https://foundation.mozilla.org/en/) foundation with a [Mozilla Open Science Mini-Grants](https://foundation.mozilla.org/en/awards/)
+- [de.NBI](https://www.denbi.de/), the German Network for Bioinformatics Infrastructure, for the MinION
+
+Hosting
+- [Hein Lab](http://portal.uni-freiburg.de/pharmakologie/ii)
+- [Coworking Freiburg](https://coworking-freiburg.de/en/)
+- [Faculty of Biology, University of Freiburg](http://www.bio.uni-freiburg.de/?set_language=en)
