@@ -4,8 +4,8 @@ image: /images/events/2018-11-10-first_workshop/head.jpg
 tags: [talk, training]
 title: 'BeerDEcoded: unofficial kickoff'
 description: 'November, 10th, 2018'
-starts: 2019-11-10
-ends: 2019-11-10
+starts: 2018-11-10
+ends: 2018-11-10
 twitter_moment: 'https://twitter.com/i/moments/1068433531829932032?ref_src=twsrc%5Etfw'
 location:
   city: Freiburg
