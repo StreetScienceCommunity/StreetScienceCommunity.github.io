@@ -92,7 +92,7 @@ we ask that you follow our [code of conduct]({{ site.github.repository_url
 
 ### Want to join the Street Science Community and participate in the upcoming events?
 
-You are very welcomed and invited to join the community and participate in the upcoming events. You can fill the [participation form]({{ site.participation_form }})
+You are very welcomed and invited to join the community and participate in the upcoming events. You can join the [mailing list]({{ site.google_group }})
 to get involved or simply contact us at [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or chat with us on [Gitter](https://gitter.im/{{ site.gitter }})
 
 ## Current Sponsors
