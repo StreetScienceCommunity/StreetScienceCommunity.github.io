@@ -92,11 +92,16 @@ we ask that you follow our [code of conduct]({{ site.github.repository_url
 
 ### Want to join the Street Science Community and participate in the upcoming events?
 
-You are very welcomed and invited to join the community and participate in the upcoming events. You can fill the [participation form]({{ site.participation_form }})
+You are very welcomed and invited to join the community and participate in the upcoming events. You can join the [mailing list]({{ site.google_group }})
 to get involved or simply contact us at [{{ site.email|replace:'@','[at]' }}](mailto:{{ site.email }}) or chat with us on [Gitter](https://gitter.im/{{ site.gitter }})
 
 ## Current Sponsors
 
-- [de.NBI](https://www.denbi.de/): the German Network for Bioinformatics
-  Infrastructure helped us by funding the MinION
-- [Hein Lab](http://portal.uni-freiburg.de/pharmakologie/ii) for hosting
+Funding
+- [Mozilla](https://foundation.mozilla.org/en/) foundation with a [Mozilla Open Science Mini-Grants](https://foundation.mozilla.org/en/awards/)
+- [de.NBI](https://www.denbi.de/), the German Network for Bioinformatics Infrastructure, for the MinION
+
+Hosting
+- [Hein Lab](http://portal.uni-freiburg.de/pharmakologie/ii)
+- [Coworking Freiburg](https://coworking-freiburg.de/en/)
+- [Faculty of Biology, University of Freiburg](http://www.bio.uni-freiburg.de/?set_language=en)
