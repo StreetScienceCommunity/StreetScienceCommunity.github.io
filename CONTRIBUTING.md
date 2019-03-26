@@ -18,7 +18,7 @@ then introduce yourself and meet some of our community members.
 
 ## How can I get started with contributing?
 
-This repository store the sources for the website.
+This repository stores the sources for the website.
 
 ## How can I contribute in "advanced" mode?
 
