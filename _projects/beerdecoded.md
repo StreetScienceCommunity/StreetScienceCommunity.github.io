@@ -23,7 +23,7 @@ sequence and analyze the "DNA of beer".
 ## How?
 
 This project was started by
-[Hackarium](http://www.hackuarium.ch/en/beerdecoded/), an open Laboratory for
+[Hackuarium](http://www.hackuarium.ch/en/beerdecoded/), an open Laboratory for
 DIY Biology, in Lausanne.
 
 In Freiburg, we develop a first prototype of the DNA extraction and sequencing
