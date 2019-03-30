@@ -87,7 +87,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="710.26362"
+     inkscape:cx="-146.34575"
      inkscape:cy="161.80961"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -109,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -220,14 +220,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055763px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-82.370193"
-       y="4.3424621"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-74.054123"
+       y="5.5932789"
        id="text5825-2"><tspan
          sodipodi:role="line"
-         x="-82.370193"
-         y="4.3424621"
-         style="font-size:29.28055763px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-74.054123"
+         y="5.5932789"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792">disposable tip</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.73640251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5)"
@@ -238,24 +238,24 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055763px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-16.758307"
-       y="-56.957172"
+       x="-12.481994"
+       y="-54.383198"
        id="text5825-8"><tspan
          sodipodi:role="line"
-         x="-16.758307"
-         y="-56.957172"
-         style="font-size:29.28055763px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-12.481994"
+         y="-54.383198"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6">pipette</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055763px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-87.293739"
-       y="75.666962"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-71.439987"
+       y="77.103249"
        id="text5825-8-5"><tspan
          sodipodi:role="line"
-         x="-87.293739"
-         y="75.666962"
-         style="font-size:29.28055763px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-71.439987"
+         y="77.103249"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6-7">pellet - Buffer</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.73640299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5-0)"
@@ -271,14 +271,14 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055954px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-99.624573"
-       y="198.16051"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-88.340248"
+       y="199.54799"
        id="text5825-8-5-8"><tspan
          sodipodi:role="line"
-         x="-99.624573"
-         y="198.16051"
-         style="font-size:29.28055954px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-88.340248"
+         y="199.54799"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6-7-4">Eppendorf tube</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.73640251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5-4)"

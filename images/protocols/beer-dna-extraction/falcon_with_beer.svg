@@ -101,9 +101,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.061871843"
-     inkscape:cx="4021.0567"
-     inkscape:cy="1852.4394"
+     inkscape:zoom="0.175"
+     inkscape:cx="1809.1812"
+     inkscape:cy="2309.5823"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -132,7 +132,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -262,15 +262,15 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-281.68054"
-       y="105.67458"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-295.28769"
+       y="108.38151"
        id="text5825-3-2"><tspan
          sodipodi:role="line"
-         x="-281.68054"
-         y="105.67458"
+         x="-295.28769"
+         y="108.38151"
          id="tspan5823-8-4"
-         style="text-align:start;text-anchor:start;stroke-width:0.65813684px">Erlenmeyer flask</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.65813684px">Erlenmeyer flask</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-5)"
        d="M -305.53391,99.252002 H -437.16362"
@@ -279,15 +279,15 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-179.15428"
-       y="255.3455"
+       y="262.68906"
        id="text5825-3-2-7"><tspan
          sodipodi:role="line"
          x="-179.15428"
-         y="255.3455"
+         y="262.68906"
          id="tspan5823-8-4-5"
-         style="text-align:start;text-anchor:start;stroke-width:0.65813684px">Falcon tube</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.65813684px">Falcon tube</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-5-4)"
        d="M 11.070851,250.2695 H 142.70057"
@@ -296,15 +296,15 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-217.42209"
-       y="440.01855"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-205.32684"
+       y="440.94763"
        id="text5825-3-2-7-5"><tspan
          sodipodi:role="line"
-         x="-217.42209"
-         y="440.01855"
+         x="-205.32684"
+         y="440.94763"
          id="tspan5823-8-4-5-2"
-         style="text-align:start;text-anchor:start;stroke-width:0.65813684px">tube rack</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.65813684px">tube rack</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-5-4-2)"
        d="M -48.797523,428.52807 H 82.832197"
@@ -700,15 +700,15 @@
        sodipodi:nodetypes="cccccccc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-283.71255"
-       y="-292.77591"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65813684px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-297.3197"
+       y="-288.03256"
        id="text5825-3-2-3"><tspan
          sodipodi:role="line"
-         x="-283.71255"
-         y="-292.77591"
+         x="-297.3197"
+         y="-288.03256"
          id="tspan5823-8-4-8"
-         style="text-align:start;text-anchor:start;stroke-width:0.65813684px">pipette</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777863px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.65813684px">pipette</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-5-40)"
        d="M -305.53391,-297.15346 H -515.78268"

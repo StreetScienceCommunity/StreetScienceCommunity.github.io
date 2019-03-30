@@ -207,8 +207,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="3168.2552"
-     inkscape:cy="557.57763"
+     inkscape:cx="505.39806"
+     inkscape:cy="671.86334"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -229,7 +229,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -284,18 +284,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93291003px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-642.06372"
-       y="253.80617"
+       x="-633.43256"
+       y="255.22169"
        id="text5819"><tspan
          sodipodi:role="line"
-         x="-515.4436"
-         y="253.80617"
+         x="-506.81244"
+         y="255.22169"
          id="tspan5817"
-         style="font-size:29.28055573px;text-align:start;text-anchor:start;stroke-width:0.93291003px"><tspan
-           x="-515.4436"
-           y="253.80617"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:arial;text-align:start;text-anchor:start;stroke-width:0.93291003px"><tspan
+           x="-506.81244"
+           y="255.22169"
            id="tspan5815"
-           style="font-size:29.28055573px;text-align:start;text-anchor:start;stroke-width:0.93291003px">pellet with yeast</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:arial;text-align:start;text-anchor:start;stroke-width:0.93291003px">pellet with yeast</tspan></tspan></text>
     <g
        id="g10795"
        transform="translate(-1.023687e-5)">
@@ -411,14 +411,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055573px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-496.03586"
-       y="-6.9299169"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:125%;font-family:arial;-inkscape-font-specification:arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-486.42987"
+       y="-5.6790872"
        id="text5825-2"><tspan
          sodipodi:role="line"
-         x="-496.03586"
-         y="-6.9299169"
-         style="font-size:29.28055573px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-486.42987"
+         y="-5.6790872"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792">disposable tip</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.73640251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5)"
@@ -429,24 +429,24 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055573px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-430.14941"
-       y="-75.713089"
+       x="-424.85773"
+       y="-73.139114"
        id="text5825-8"><tspan
          sodipodi:role="line"
-         x="-430.14941"
-         y="-75.713089"
-         style="font-size:29.28055573px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-424.85773"
+         y="-73.139114"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6">pipette</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.28055573px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-429.19513"
-       y="113.57219"
+       x="-418.9928"
+       y="113.675"
        id="text5825-8-5"><tspan
          sodipodi:role="line"
-         x="-429.19513"
-         y="113.57219"
-         style="font-size:29.28055573px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-418.9928"
+         y="113.675"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6-7">Buffer</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.73640287;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5-6)"

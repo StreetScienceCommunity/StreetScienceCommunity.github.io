@@ -132,10 +132,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="179.68209"
+     inkscape:cx="-192.05405"
      inkscape:cy="163.25357"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5006"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="755"
@@ -154,7 +154,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -203,14 +203,14 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-55.806149"
-       y="164.52063"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-42.977211"
+       y="164.41431"
        id="text5825-8-5-8"><tspan
          sodipodi:role="line"
-         x="-55.806149"
-         y="164.52063"
-         style="font-size:22.57777786px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="-42.977211"
+         y="164.41431"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6-7-4">Eppendorf tube</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5-4)"
@@ -220,14 +220,14 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="12.263074"
-       y="212.41969"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="16.967447"
+       y="212.10875"
        id="text5825-8-5-2"><tspan
          sodipodi:role="line"
-         x="12.263074"
-         y="212.41969"
-         style="font-size:22.57777786px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+         x="16.967447"
+         y="212.10875"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
          id="tspan4792-6-7-7">buffer</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9-5-4-3)"
@@ -237,41 +237,46 @@
        sodipodi:nodetypes="cc" />
     <g
        id="g5006"
-       transform="translate(35.159473,-11.034723)">
+       transform="translate(48.939759,-11.034723)">
       <text
          id="text5825-8-5-8-7"
          y="254.17015"
-         x="-95.079567"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-95.623894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan4792-6-7-4-9"
-           style="font-size:22.57777786px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
            y="254.17015"
-           x="-95.079567"
-           sodipodi:role="line">magnetic beads</tspan></text>
+           x="-95.623894"
+           sodipodi:role="line">magnetic beads </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+           y="271.80905"
+           x="-95.623894"
+           sodipodi:role="line"
+           id="tspan4864">with yeast DNA</tspan></text>
       <text
          id="text5825-8-5-8-7-7"
          y="276.23959"
          x="-96.068817"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan4792-6-7-4-9-9"
-           style="font-size:22.57777786px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
-           y="276.23959"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+           y="288.95023"
            x="-96.068817"
-           sodipodi:role="line">with yeast DNA</tspan></text>
+           sodipodi:role="line" /></text>
     </g>
     <g
        id="g5006-3"
-       transform="translate(43.273635,57.937111)">
+       transform="translate(48.921299,60.203887)">
       <text
          id="text5825-8-5-8-7-8"
          y="236.78325"
          x="-42.923035"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38093019px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan4792-6-7-4-9-0"
-           style="font-size:22.57777786px;text-align:start;text-anchor:start;stroke-width:0.38093019px"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:0.38093019px"
            y="236.78325"
            x="-42.923035"
            sodipodi:role="line">magnet</tspan></text>

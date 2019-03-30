@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,7 +96,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.10871395"
-     inkscape:cx="2329.689"
+     inkscape:cx="379.61728"
      inkscape:cy="1021.6942"
      inkscape:window-x="20"
      inkscape:window-y="21"
@@ -157,45 +157,45 @@
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48744631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="2363.3711"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48744631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="2317.3789"
      y="2564.6121"
      id="text5825"><tspan
        sodipodi:role="line"
-       x="2363.3711"
+       x="2317.3789"
        y="2564.6121"
        id="tspan5823"
-       style="text-align:start;text-anchor:start;stroke-width:2.48744631px">beer<tspan
-   x="2524.4309"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:2.48744631px">beer<tspan
+   x="2478.4387"
    y="2564.6121"
    id="tspan5821"
-   style="text-align:start;text-anchor:start;stroke-width:2.48744631px" /></tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:2.48744631px" /></tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48744631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="2363.9197"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48744631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="2317.9275"
      y="2023.1636"
      id="text5825-3"><tspan
        sodipodi:role="line"
-       x="2363.9197"
+       x="2317.9275"
        y="2023.1636"
        id="tspan5823-8"
-       style="text-align:start;text-anchor:start;stroke-width:2.48744631px">foam<tspan
-   x="2524.9795"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:2.48744631px">foam<tspan
+   x="2478.9873"
    y="2023.1636"
    id="tspan5821-0"
-   style="text-align:start;text-anchor:start;stroke-width:2.48744631px" /></tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:2.48744631px" /></tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;line-height:125%;font-family:Angelina;-inkscape-font-specification:Angelina;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48744631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="2367.8511"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48744631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="2321.8589"
      y="1366.1162"
      id="text5825-3-2"><tspan
        sodipodi:role="line"
-       x="2367.8511"
+       x="2321.8589"
        y="1366.1162"
        id="tspan5823-8-4"
-       style="text-align:start;text-anchor:start;stroke-width:2.48744631px">Erlenmeyer flask</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-width:2.48744631px">Erlenmeyer flask</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
      d="M 2276.5794,2520.6806 H 1848.2748"
