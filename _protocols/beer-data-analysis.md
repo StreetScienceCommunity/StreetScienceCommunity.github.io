@@ -73,6 +73,7 @@ The report is a text file with a tree-like structure that can be downloaded and 
 
 
 Where the column fields are:
+```
 1. Percentage of fragments covered by the clade rooted at this taxon
 2. Number of fragments covered by the clade rooted at this taxon
 3. Number of fragments assigned directly to this taxon
@@ -85,21 +86,23 @@ Where the column fields are:
    grandparent taxon is at the genus rank.
 5. NCBI taxonomic ID number
 6. Indented scientific name
+```
 
 We would like now to visualize this information using **Krona**
 
 1. Search for **Krona pie chart** from the tools section
 2. Run **Krona pie chart**
    - *"What is the type of your input data"*: `Tabular`
-        - *"Input file"*: report from **Kraken2**
+        - *"Input file"* \* : report from **Kraken2**
+
+(\*) Some reformatting of the data might be needed for a proper visualization, please refer to the history.
+
+> A Galaxy history for the kickoff sequencing data is available on [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu/u/milad/h/nanoporebeerdecodechimaytriple)
 
 This will generate an interactive html chart. 
 
 ![](/images/protocols/beer-data-analysis/krona.png){: width="100%"}
 
-Some reformatting of the data might be needed for a proper visualization.
-
-> A Galaxy history for the kickoff sequencing data is available on [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu/u/milad/h/nanoporebeerdecodechimaytriple)
 
 ## Using One Codex web server
 
