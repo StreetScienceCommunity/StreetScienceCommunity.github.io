@@ -37,5 +37,11 @@ title: Beer DNA introduction
   * The chain of building blocks, also known as sequence can be read by seqeuencing.
   * You will learn how to do that in the next hours. 
 
+* Do we expect only to find yeast DNA? Could there be other DNA?
+  * Living cells contain DNA, also the used barley, the hops and the human brewer.
+    It would be possible that find also their DNA during sequencing.
+
 * I am here to hear about beer but is this important elsewere?
   * The blueprints of your cells are also based on DNA, knowning your DNA sequence can be relevant for your health.
+
+
