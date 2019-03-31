@@ -97,7 +97,7 @@ We would like now to visualize this information using **Krona**
 
 (\*) Some reformatting of the data might be needed for a proper visualization, please refer to the history.
 
-> A Galaxy history for the kickoff sequencing data is available on [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu/u/milad/h/nanoporebeerdecodechimaytriple)
+A Galaxy history for the kickoff sequencing data is available on [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu/u/milad/h/nanoporebeerdecodechimaytriple)
 
 This will generate an interactive html chart. 
 
