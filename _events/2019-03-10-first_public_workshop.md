@@ -25,7 +25,7 @@ On the 31st of March, we hold our first public workshop for the [BeerDEcoded pro
   /images/events/2019-03-10-first_public_workshop/DSC_9661.jpg"
 %}
 
-We started the day with short introduction to beer, yeast, DNA, but also lab safety. We organized after some games around pipetting and centrifuge to make the participants more comfortable with both.
+We started the day with a short introduction to beer, yeast, DNA and of course lab safety. Then all participants took part in some fun games on pipetting and centrifuging to make them more comfortable with both.
 
 {% include event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9563.jpg
@@ -34,7 +34,7 @@ We started the day with short introduction to beer, yeast, DNA, but also lab saf
   /images/events/2019-03-10-first_public_workshop/DSC_9592.jpg"
 %}
 
-We extracted DNA of the yeast of a local Black Forest beer, the not filtered Waldhaus.
+We extracted yeast DNA of the not filtered Waldhaus, a local Black Forest beer.
 
 {% include event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9644.jpg
@@ -45,7 +45,7 @@ We extracted DNA of the yeast of a local Black Forest beer, the not filtered Wal
   /images/events/2019-03-10-first_public_workshop/DSC_9609.jpg"
 %}
 
-The extraction went well. In parallel, we tried to sequence DNA extracted previously (from another local beer, Rothaus). But we encountered several problems during the library preparation and the sequencing: mistakes in the protocols, reuse of old flowcell, etc. We will improve the protocol to fix the issues.
+Then DNA extraction went well. In parallel, we started our DNA sequencing protocol using a previously extracted DNA from Rothaus, another local beer. Here we encountered several problems during the library preparation and the sequencing likely due to mistakes in the protocols and reuse of old flowcell. We will improve the protocol to fix the issues.
 
 {% include event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9623.jpg
@@ -65,7 +65,7 @@ We then analyzed the data using Galaxy.
   /images/events/2019-03-10-first_public_workshop/DSC_9538.jpg"
 %}
 
-The participants seem to have enjoyed the day!
+The participants and we enjoyed the day a lot!
 
 ## Feedbacks
 
