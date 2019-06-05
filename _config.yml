@@ -21,3 +21,6 @@ collections:
   protocols:
     permalink: /protocols/:path/
     output: true
+  materials:
+    permalink: /materials/:path/
+    output: true
