@@ -1,3 +1,4 @@
+SHELL=bash
 CONDA_ENV = street_science_community_website
 
 CONDA = $(shell which conda)
