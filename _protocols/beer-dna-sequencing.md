@@ -102,12 +102,29 @@ The most important: **7.5µl DNA** extracted as described in the [DNA extraction
 
 ## Protocol: Software setup
 
-- Install the software as per Nanopore instructions
-- Launch a new experiment **NEEDS MORE INFO**
-  - Configuration
-  - BeerOne
-  - sequencing DNA
-  - RAD004
-  - 4 hours
-  - Basescalling OFF
-  - FASTA + faw
+### MinKNOW
+
+MinKNOW is the program needed to connect your computer with MinION. It has a graphic user interface for setting up the configurations and running the sequencing. Furthermore, it has integrated base-caller software to convert the raw nanopore signals to the strings of nucleotides, in fastq format.
+
+#### Installation:
+
+- Please search for "MinION Software" in the Nanopore downloads web page https://community.nanoporetech.com/downloads.
+- Select your host operating system and follow the link to the installation instructions.
+- Since the supported systems and the installation procedure is constantly updated, please always refer to the community website for details.
+
+#### Starting the software:
+
+Requirements:
+- you have to have a account at nanopor MinION to start the software
+- the divice need to be attached to the computer to start the software
+
+Either you find the "MinION Software" botton directly or you open it via the terminal using the path "/opt/ui/MinKNOW" 
+
+#### Launching MinKNOW and running the sequencing
+
+After having the software installed, the major steps would be connect, initialize and configure the MinION within the MinKNOW software. Afterwards the device would be ready for loading and sequencing the data.
+
+- Again please refer to the community web site for up-to-date instructions and follow the graphically enhanced manuals.
+- This is the current link to the manual for starting MinKNOW and the follow up procedures. https://community.nanoporetech.com/protocols/experiment-companion-minknow/v/mke_1013_v1_revan_11apr2016/introduction-to-local-base
+- Since the URL is not generic, it would be best to find the latest manual from the getting started page here: https://community.nanoporetech.com/getting_started
+
