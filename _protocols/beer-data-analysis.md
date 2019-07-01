@@ -48,7 +48,25 @@ For details, please double check the [documentation and guide in the Nanopore we
 
 # Taxonomy identification
 
-## Using Kraken2 on Galaxy
+## All-in-one Galaxy workflow (simple)
+
+* Upload the DNA data (the basecalled `passed` fastq) to the Street Science European Galaxy server [https://streetscience.usegalaxy.eu/](https://streetscience.usegalaxy.eu/).
+  - Using the interface from the top left tool bar.
+
+* Import the Kraken2 based shared workflow from this link [https://usegalaxy.eu/u/milad/w/metagenomics-krakan2](https://usegalaxy.eu/u/milad/w/metagenomics-krakan2).
+  - By clicking to the "+" import logo
+
+* Find and run the imported workflow. 
+  - From the `workflow` tab on top of the page.
+  - Click the dropdown arrow and select `Run` or the `Run play logo` from the workflow editor page.
+
+* Select the uploaded fastq file as input for `reads.fastq` entry.
+  - In case you cannot see the fastq file from the dropdown selection list, convert the entry datatype to `fastqsanger`. Select the pen logo `Edit attributes`-> `Data types`-> `New Type`->`fastqsanger` then push `Change datatype`.
+
+
+
+## Step-by-step procedure using Galaxy tools (advanced)
+### Using Kraken2 on Galaxy
 
 Kraken2 is an open source softwares that is recommended for metagenomic analysis of Nanopore data. The databases for several domains are integrated and available on the [Street Science Galaxy](https://streetscience.usegalaxy.eu/)
 
@@ -121,7 +139,7 @@ This will generate an interactive html chart.
 ![](/images/protocols/beer-data-analysis/krona.png){: width="100%"}
 
 
-## Using One Codex web server
+## Using One Codex web server (simple)
 
 1. Register for a free academics account at [One Codex](https://app.onecodex.com/register)
 2. Upload the fastq file
