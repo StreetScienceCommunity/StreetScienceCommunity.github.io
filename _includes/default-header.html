@@ -24,7 +24,6 @@
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> Projects </a>
-
           <div class="navbar-dropdown">
             {% for page in site.projects %}
             <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
@@ -36,9 +35,17 @@
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Protocols</a>
-
           <div class="navbar-dropdown">
             {% for page in site.protocols %}
+            <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Materials</a>
+          <div class="navbar-dropdown">
+            {% for page in site.materials %}
             <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
             {% endfor %}
           </div>
