@@ -120,7 +120,7 @@ Now we want to extract DNA. The liquid contains also buffer and cell garbage.
 To extract the DNA, we will make the DNA binding to some beads and then use a magnet to capture the beads with the DNA. Then, we wash and repeat pretty much the same step: that time, beads will attach to the tube and the 
 liquid will contain our DNA.
 
-1. Vortex the sample at highspeed for 5 min
+1. Centrifuge the sample at highspeed for 5 min
 
     A pellet will appear at the bottom of the tube
 
