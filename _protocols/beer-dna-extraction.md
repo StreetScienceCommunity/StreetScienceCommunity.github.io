@@ -6,7 +6,7 @@ image: /images/protocols/beer-dna-extraction.jpg
 
 ## Requirements
 
-The most important: **a bootle of beer (33cl)**. In our first prototype, we used a Chimay red. Using a non-filtered beer should give more DNA for sequencing.
+The most important: **2 bottles of beer (33cl)**. In our first prototype, we used a Chimay red. Using a non-filtered beer should give more DNA for sequencing.
 
 Needed consumables
 - 10x 50ml Falcon tubes
@@ -20,9 +20,9 @@ Needed consumables
     It is possible to prepare cheap homemade SPRI beads to purify DNA by [following instructions](https://tinyurl.com/yyk9dz8c)
 
 - 70% Ethanol solution
-- DNA binding column, i.e. [QIAquick PCR Purification Kit](https://tinyurl.com/y29rg4my)
+- DNA binding column, i.e. [QIAquick PCR Purification Kit](https://tinyurl.com/y29rg4my) or MinElute Reaction Kit 50 from Qiagen
 - 750µl Buffer PE
-- Water (for solving the DNA pellet)
+- Nuclease free water (for solving the DNA pellet)
 
 Needed material
 - 1x 1000ml Erlenmeyer
@@ -40,11 +40,11 @@ Needed material
 
 ## Beer DNA extraction
 
-0. Pre-cooled the centrifuge so that it starts at 4°C
+1. Pre-cooled the centrifuge so that it starts at 4°C
 
     This part is optional. But we hypothesize that keeping the beer at the preferred drinking temperature improves the sequencing results [proof is needed].
 
-1. Open the beer few hours before to get most of the CO2 out
+2. Open the beer few hours before to get most of the CO2 out
 
 ### Extract the yeast from the beer
 
@@ -103,16 +103,17 @@ We now want to get the DNA out the yeast. The DNA is well protected by the membr
 
 *A yeast cell - Frankie Robertson, CC ASA, [Wikimedia](https://en.wikipedia.org/wiki/File:Yeast_cell_english.svg)*
 
+1. Prepare a cold mix (-20°C) with 3 volume of ice and 1 volume of salt
 1. Add 200µl of lysis buffer into each tube
 2. Mix carefully by pipetting up and down (at least 10 times) to resolve the pellet
 3. Repeat 2 times
-    1. Put the tubes into the ethanol bath (-80°C) or dry ice for 2 min
+    1. Put the tubes into the cold mix (-20°C) for 2 min
     2. Put the tubes in boiling water (100°C) for 2 min
     3. Vortex the tubes for 30s
 
 The freezing and boiling destroys both membranes and help to release the DNA.
   
-### Extract the DNA from the content of the cell
+### Extract the DNA from the cell
 
 Now we want to extract DNA. The liquid contains also buffer and cell garbage.
 
@@ -162,7 +163,7 @@ liquid will contain our DNA.
 
        During this time, ethanol residues will evaporate.
 
-    7. Add 100µl of water
+    7. Add 100µl of nuclease free water
     8. Remove the tube from the magnet and mix properly (vortex)
 
         The water is more attractive for the DNA than the beads, so it will go into solution. 
@@ -176,34 +177,39 @@ liquid will contain our DNA.
 
     The liquid in the tube now contains the DNA
 
-To improve the purity, we use a MinElute Reaction Kit 50 from Qiagen
 
-1. Add 500µl of PB-buffer (from the kit) to the sample (the yellowish solution) and vortex
-2. Place a column into a collection tube
-3. Pipette the samples into the column
+    The liquid still contains some cell garbage. To improve the purity we will use some columns with resine on which the DNA will bind.
 
-    The column contains a silica based material and the DNA in our yellowish solution will bind to this material. All other things will be washed away by centrifugation.
+4. Umprove the purity
 
-4. Centrifuge for 1 min at full speed
+    1. Add 500µl of PB-buffer (from the column kit) to the sample (the yellowish solution) and vortex
+    2. Place a column into a collection tube
+    3. Pipette the samples into the column
 
-    The DNA binds to the column and stays there.
+        The column contains a silica based material and the DNA in our yellowish solution will bind to this material. All other things will be washed away by centrifugation.
 
-5. Add 750µl Buffer PE to the column (which is nothing else than 70% ethanol)
-7. Centrifuge for 1 min at full speed
-8. Remove the liquid from the collection tube and put the column back
-9. Centrifuge for 1 min to dry the column
-10. Transfer the column content out into a new Falcon tube
-11. Discard the collection tube
-12. Add 11µl water to the column and wait for 1 min
-13.	Centrifuge for 1 min to elude the DNA from the column
+        ![](/images/protocols/beer-dna-extraction/column.svg){: width="25%"}
 
-    The liquid in the tube now contains the DNA
+    4. Centrifuge for 1 min at full speed
 
-14. Check the purity with a spectrophotometer
+        The DNA binds to the column and stays there.
+
+    5. Add 750µl Buffer PE to the column (which is nothing else than 70% ethanol)
+    7. Centrifuge for 1 min at full speed
+    8. Remove the liquid from the collection tube and put the column back
+    9. Centrifuge for 1 min to dry the column
+    10. Transfer the column content out into a new Falcon tube
+    11. Discard the collection tube
+    12. Add 11µl water to the column and wait for 1 min
+    13.	Centrifuge for 1 min to elude the DNA from the column
+
+            The liquid in the tube now contains the DNA.
+
+5. Check the purity with a spectrophotometer
 
     Spectrowhat?! A spectrophotometer sends light with different wavelengths through our DNA-sample. DNA absorbs light at a defined wavelength (maximum absorption at 260 nm wavelength). This can be used to quantify the amount of DNA. Concerning Nanopore sequencing: The more, the better! Furthermore, we can estimate the purity of our DNA. EtOH for example has an absorption maximum at 230 nm. At 230 nm there should be no peak in the sprectrum (or at least much smaller than the DNA-peak at nm=260).
 
-15. Freeze the DNA until library preparation
+6. Freeze the DNA until library preparation
 
 Well done! Now you have successfully extracted beer DNA! [Go on and sequence your extracted DNA]({% link _protocols/beer-dna-sequencing.md %}) or visit the next pub...
 
