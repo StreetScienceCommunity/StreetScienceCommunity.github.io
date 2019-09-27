@@ -66,10 +66,10 @@ In the sequel, we assume you use miniconda.
 2. Clone this GitHub repository:
 
    ```
-   git clone https://github.com/StreetScienceCommunity/StreetScienceCommunity.git
+   git clone https://github.com/StreetScienceCommunity/StreetScienceCommunity.github.io
    ```
 
-3. Navigate to the `StreetScienceCommunity/` folder with `cd`
+3. Navigate to the `StreetScienceCommunity.github.io/` folder with `cd`
 4. Set up the conda environment:
 
    ```
