@@ -1,0 +1,41 @@
+---
+layout: slides
+title: "What is Bioinformatics?"
+---
+
+![](/images/materials/bioinformatics/1.svg)
+
+---
+
+### First the Idea then the Analysis
+
+
+![](/images/materials/bioinformatics/2.svg)
+
+---
+
+### Types of Data
+
+- **Raw** (e.g., current/time-data of MinION)
+- **Interpreted Data** (e.g., base calling into FASTQ)
+- **Processed Data** (e.g., mapped reads into SAM/BAM)
+- **Feature Data** (e.g., feature counts or peaks)
+- **Results** (e.g., plots)
+
+---
+
+### FASTQ Format
+
+```
+@SEQ_ID
+GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
++
+!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65
+```
+
+- **Line 1:** Read ID
+- **Line 2:** Sequence
+- **Line 3:** Additional Information
+- **Line 4:** Quality String; ASCII formated q-scores.
+
+---
