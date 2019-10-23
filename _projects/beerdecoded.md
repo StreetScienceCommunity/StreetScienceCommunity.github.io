@@ -2,8 +2,43 @@
 layout: default
 title: BeerDEcoded
 image: /images/beerdecoded.jpg
-description: Sequencing the DNA of beer
+description: An immersion into biology, bioinformatics & sciences via beer and their yeasts
 ---
+
+**Purpose**: Introduce biology and genomic science to the public and make pupils and citizens aware about DNA, sequencing technologies, bioinformatics, open science and their applications and their impact on their daily life
+
+**Process**: 1-2 days continuous (or divided over several days) practical workshop on beer decoding
+
+![](/images/projects/beerdecoded/workflow.png)
+
+
+## Hands-on workshop
+
+**Targets**: pupils in high school (16 years old or older) and citizens with or without scientific background
+
+**Learning objectives**: at the end of the workshop, participants will be able to:
+- perform simple laboratory tasks
+- give examples of microbes and their diverse roles
+- explain what is cell and what it contains
+- describe DNA as the building block for life
+- give examples of DNA sequencing technologies
+- apply a bioinformatics pipeline
+
+**Available pedagogical material**
+- Online, free to use and reuse
+- Ready to use and modular protocols, with designated versions for teachers and pupil, and pedagogical gamification
+- Presentation material to introduce the topic, theoretical background for lab-work and bioinformatics, with simple vocabulary
+- Handbook to run a workshop independently (requirements and suggested timeline)
+
+**3 ways to run a workshop**
+- At the university campus with us
+- On site (e.g. at your school) with us
+- Self-organize using the material online
+
+## Previous workshops
+
+We already organized several BeerDEcoded workshops over the last year. You can read more about
+ them by checking our [events]({% link events.md %}).
 
 ## Why?
 
@@ -26,24 +61,10 @@ This project was started by
 [Hackuarium](http://www.hackuarium.ch/en/beerdecoded/), an open Laboratory for
 DIY Biology, in Lausanne.
 
-In Freiburg, we develop a first prototype of the DNA extraction and sequencing
+In Freiburg, we develop a prototype of the DNA extraction, sequencing, and analysis
 protocols using the [Nanopore MinION](https://nanoporetech.com/products/minion),
-a portable real-time device for DNA sequencing. The results are very promising
-and the initial feedback is overwhelming. We have successfully identified
-specific brewing yeast strains from the DNA extracted out of bottled beer. For
-the data analysis, we create a workflow using Galaxy. This open source,
-web-based platform makes reproducible computational biology and bioinformatics
-accessible to anyone with web-access.
-
-To support the workshop, training material (slides, hands-on material,
-interactive web-tours) are creating to guide our participants from data upload
-to data analysis.
-
-The protocols used for the DNA extraction and sequencing, the workflows, the
-sequencing data, and the training materials are developed in an open
-collaborative environment, adhering to the open science principles and shared
-online. We are aiming at providing a template project for other communities
-around the globe to pursue similar efforts locally.
+a portable real-time device for DNA sequencing, and Galaxy, an open source,
+web-based platform for computational biology and bioinformatics.
 
 ## Some pictures
 
