@@ -1,5 +1,6 @@
 ---
 ---
+$black: #000;
 
 body {
   background-color: white;
@@ -8,4 +9,26 @@ body {
 nav,
 footer {
   display: none;
+}
+
+.hero-header {
+  height: 50px;
+  background-image: none !important;
+}
+
+.hero-header-title {
+  padding-top: 15px;
+  text-shadow: none;
+
+  h1 {
+    color: black !important;
+  } 
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
