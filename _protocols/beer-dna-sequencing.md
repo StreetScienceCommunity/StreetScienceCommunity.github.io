@@ -66,30 +66,31 @@ Sequencing
 - Vortex
 - Centrifuge
 
-## Install and prepare the Nanopore Software
+## Installation and preparation pf the Nanopore Software
 
 > MinKNOW is the program needed to connect your computer with the small sequencing device MinION. The software has a graphical user interface for configuring and running the sequencing process. Furthermore, it has an integrated base-calling software to convert the raw Nanopore signals to the strings of nucleotides, in [fastq](https://en.wikipedia.org/wiki/FASTQ_format) file format.
 
 1. Create an account on the Nanopore Community
-2. Search for "MinION Software" on the [downloads page of Nanopore](https://community.nanoporetech.com/downloads)
-3. Select the operating system of the computer
-4. Follow the link and the installation instructions
-5. Create an account to start the software
+2. Search for **"MinION Software"** on the [downloads page of Nanopore](https://community.nanoporetech.com/downloads)
+3. Select the operating system of the computer and download it
+4. Follow the installation instructions
+5. Launch the software called **MinKNOW**
 
-## Prepare the MinION
+    On Linux
+    - Open a terminal
+    - Run `/opt/ui/MinKNOW`
 
-1. Attach the MinION device to the computer by connecting it to the USB port
-2. Start the software
+## Preparation of the MinION
 
-    2 possibilities:
+1. Open the MinION lid
 
-    1. On Windows or Mac, click on the **MinION Software**
-    2. On Linux
-        - Open a terminal
-        - Run `/opt/ui/MinKNOW`
+    ![](/images/protocols/beer-dna-sequencing/minion_explanation_1.png){: width="50%"}
 
+2. Add a flowcell (or a flongle)
+1. Connect the MinION to the computer via USB
+2. Launch the **MinKNOW** software as explained before
 3. Select the flow cell type as written on the flow cell package
-4. Click on **"Check flow cell"** and then **"Start test"**
+4. Click on **"Check flow cells"** and then **"Start test"**
 
 <!--Add a screenshot-->
 
@@ -99,8 +100,7 @@ On the right side under messages, there will be information about
 
 ## Library preparation
 
-
-1. Mix the DNA by flicking the tube and spinning down briefly in a centrifuge, e.g. at 10 sec at 8000rpm (use the "short" button on your centrifuge if available)
+1. Mix the DNA by flicking the tube and spinning down briefly in a centrifuge, e.g. at 10 sec at 8000 RPM (use the "short" button on your centrifuge if available)
 2. Prepare the sequencing kit
     1. Thaw to room temperature
     2. Briefly spin down each reagent
@@ -116,12 +116,16 @@ On the right side under messages, there will be information about
 4. Mix gently by flicking the tube, and spin down
 5. Put the tubes into a thermocycler for 1 min at 30°C and then 1 min at 80°C
 
-    > Denaturation of DNA, i.e. the process by which double-stranded deoxyribonucleic acid unwinds and separates into single-stranded strands through the breaking of hydrophobic stacking attractions between the bases, takes place at 80°C. The primers are first annealed to target sequence at 30°C. 
+    > Denaturation of DNA, i.e. the process by which double-stranded deoxyribonucleic acid unwinds and separates into single-stranded strands through the breaking of hydrophobic stacking attractions between the bases, takes place at 80°C. The primers are first annealed to target sequence at 30°C.
+    >
+    > ![](/images/protocols/beer-dna-sequencing/dna_denaturation.png){: width="50%"}
 
 6. Put the tube on ice until next step
 7. Attach adapters by adding 1 µl of RAP into the tube
 
-    > RAP contains adapters that are ligated to the DNA. They are needed for the sequencing to guide the DNA fragments through the nanopores
+    > RAP contains adapters that are ligated to the DNA. These adapters are motor proteins, needed for the sequencing to guide the DNA fragments through the nanopores.
+    >
+    > ![](/images/protocols/beer-dna-sequencing/rap_explanation.png){: width="30%"}
 
 8. Mix gently by flicking the tube, and spin down
 9. Incubate the reaction for 5 min at room temperature
@@ -133,8 +137,12 @@ On the right side under messages, there will be information about
     1. Mix the SQB tube by vortexing, spin down and return to ice
     2. Mix the FB tube by vortexing, spin down and return to ice
     3. Spin down the FLT tube, mix by pipetting, and return to ice
-2. Prepare loading port
-    1. Open priming port on the flowcell to check for small bubbles
+
+2. Prepare MinION for loading
+
+    ![](/images/protocols/beer-dna-sequencing/minion_explanation_2.png){: width="50%"}
+
+    1. Open **priming port** on the flowcell to check for small bubbles
     2. Remove possible bubbles by taking 200 µl liquid from the port using the P1000 pipette
     3. Remove the liquid by turning the wheel of the pipet but only until 220-230 µl
 
@@ -154,13 +162,18 @@ On the right side under messages, there will be information about
     - 11 μl DNA library
 
 7. Load the library into the flow cell
-    1. Gently lift the SpotON sample port cover to make the SpotON sample port accessible
+
+    ![](/images/protocols/beer-dna-sequencing/minion_explanation_2.png){: width="50%"}
+
+    1. Gently lift the sample port cover to make the sample port accessible
     2. Load 200 μl of the priming mix into the flow cell via the **priming port (not the SpotON sample port)**, avoiding introduction of air bubbles
     3. Mix the prepared library gently by pipetting up and down prior to loading
     4. Add 75 μl of the library preparation to the flow cell via the SpotON sample port in a dropwise fashion
     
         Ensure each drop flows into the port before adding the next
 
-    5. Gently replace the SpotON sample port cover
+    5. Gently replace the sample port cover
     6. Making sure the bung enters the SpotON port
     7. Close the priming port and the MinION lid
+
+8. Launch the sequencing
