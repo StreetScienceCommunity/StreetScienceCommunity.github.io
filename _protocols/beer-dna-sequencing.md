@@ -82,21 +82,47 @@ Sequencing
 
 ## Preparation of the MinION
 
-1. Open the MinION lid
+1. Connect the MinION to the computer via USB
+2. Launch the **MinKNOW** software
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_start.png){: width="50%"}
+
+3. Open the MinION lid
 
     ![](/images/protocols/beer-dna-sequencing/minion_explanation_1.png){: width="50%"}
 
-2. Add a flowcell (or a flongle)
-1. Connect the MinION to the computer via USB
-2. Launch the **MinKNOW** software as explained before
-3. Select the flow cell type as written on the flow cell package
-4. Click on **"Check flow cells"** and then **"Start test"**
+4. Remove the **Configuration Test Cell**
 
-<!--Add a screenshot-->
+5. Add a **flow cell** or a **flongle flow cell** with an adapter
 
-On the right side under messages, there will be information about
-- when the check is completed 
-- how many nanopores are available for your sequencing run
+    Add explanation for a flongle
+
+6. Click on the MinION in MinKNOW software
+7. Click on **"Check flow cells"** (on the bottom)
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_before_check_flowcell.png){: width="50%"}
+
+8. Click on **"Start test"** in the new 
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_start_test.png){: width="50%"}
+
+9. Click on **Jump to run** and then the active run, on the welcome page of MinKNOW
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_start_test_after.png){: width="50%"}
+
+10. Wait for the tests to be done
+
+    > The flow cell is first getting to 37°C and then each nanopores in the flow cell are checked.
+    >
+    > ![](/images/protocols/beer-dna-sequencing/minknow_flowcell_check.png){: width="30%"}
+    >
+    > Due to sequencing runs and time, the nanopore complexes tend to be deteriorated and become dead, and could not read the DNA strand.
+
+11. Click on the right side under message to check how many pores are available for sequencing
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_after_check_flowcell.png){: width="50%"}
+
+The MinION flow cell contains up to 512 nanopores and the flongle flow cell up to ... nanopores. ... should be available to run sequencing.
 
 ## Library preparation
 
@@ -177,3 +203,10 @@ On the right side under messages, there will be information about
     7. Close the priming port and the MinION lid
 
 8. Launch the sequencing
+
+
+## Cleaning
+
+1. Wash the flow cell (not the flongle flow cell)
+2. Remove the flow cell
+1. Put the **Configuration Test Cell** in
