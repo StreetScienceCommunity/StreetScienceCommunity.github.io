@@ -4,71 +4,51 @@ title: Beer DNA sequencing
 image: /images/protocols/beer-dna-sequencing.jpg
 ---
 
-## Requirements
+# To prepare before 
 
-### Needed consumables
-
-MinION preparation
-
-- Flow cell or Flongle
-
-Library preparation
-
-- 400ng DNA solved in 7.5µl nuclease-free water, extracted given the [DNA extraction protocol]({% link _protocols/beer-dna-extraction.md %})
-- [Rapid Sequencing Kit](https://store.nanoporetech.com/sample-prep/rapid-sequencing-kit.html) including
-    - 2.5 µl Fragmentation Mix (FRA)
-    - 1 µl Rapid Adapter (RAP)
-- Nuclease-free water (e.g. ThermoFisher, cat #AM9937)
-
-    > "Normal" water contains nucleases which may degrade DNA
-
-- 0.2 mL PCR tubes
-- Ice
-
-Sequencing
-
-- Flow cell or Flongle
-- [Rapid Sequencing Kit](https://store.nanoporetech.com/sample-prep/rapid-sequencing-kit.html) including
-    - 30 µl Flush Tether (FLT)
-    - 34 μl Sequencing Buffer (SQB)
-    -  µl Flush Buffer (FB)
-    - 25.5 μl Loading Beads (LB)
-- Nuclease-free water (e.g. ThermoFisher, cat #AM9937)
-- 1.5 ml Eppendorf DNA 
-- MinIon device including Flow cell
-- Ice
-
-### Needed material
+## Consumables
 
 MinION preparation
 
-- Computer with at least ... RAM and ... CPU
-- MinION
+{% include _protocols/beer-dna-sequencing/minion-preparation-consumable.md  %}
 
 Library preparation
 
-- Thermocycler at 30° C and 80° C
- 
-    > A Thermocycler is a PCR machine to amplify DNA
-
-- P2 pipette and tips
-- P10 pipette and tips
-- Centrifuge
+{% include _protocols/beer-dna-sequencing/library-preparation-consumable.md  %}
 
 Sequencing
 
-- Computer with at least ... RAM and ... CPU
-- MinION with the flow cell
-- P100 pipette and tips
-- P1000 pipette and tips
-- P20 pipette and tips
-- P10 pipette and tips
-- Vortex
-- Centrifuge
+{% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
 
-## Installation and preparation pf the Nanopore Software
+## Material
+
+MinION preparation
+
+{% include _protocols/beer-dna-sequencing/minion-preparation-material.md  %}
+
+Library preparation
+
+{% include _protocols/beer-dna-sequencing/library-preparation-material.md  %}
+
+Sequencing
+
+{% include _protocols/beer-dna-sequencing/sequencing-material.md  %}
+
+# MinION preparation
+
+> Needed consumables:
+>
+> {% include _protocols/beer-dna-sequencing/minion-preparation-consumable.md  %}
+>
+> Needed material:
+>
+> {% include _protocols/beer-dna-sequencing/minion-preparation-material.md  %}
+{: .requirements}
+
+## Installation and preparation of the Nanopore Software
 
 > MinKNOW is the program needed to connect your computer with the small sequencing device MinION. The software has a graphical user interface for configuring and running the sequencing process. Furthermore, it has an integrated base-calling software to convert the raw Nanopore signals to the strings of nucleotides, in [fastq](https://en.wikipedia.org/wiki/FASTQ_format) file format.
+{: .details}
 
 1. Create an account on the Nanopore Community
 2. Search for **"MinION Software"** on the [downloads page of Nanopore](https://community.nanoporetech.com/downloads)
@@ -117,6 +97,7 @@ Sequencing
     > ![](/images/protocols/beer-dna-sequencing/minknow_flowcell_check.png){: width="30%"}
     >
     > Due to sequencing runs and time, the nanopore complexes tend to be deteriorated and become dead, and could not read the DNA strand.
+    {: .details}
 
 11. Click on the right side under message to check how many pores are available for sequencing
 
@@ -124,7 +105,16 @@ Sequencing
 
 The MinION flow cell contains up to 512 nanopores and the flongle flow cell up to ... nanopores. ... should be available to run sequencing.
 
-## Library preparation
+# Library preparation
+
+> Needed consumables:
+> 
+> {% include _protocols/beer-dna-sequencing/library-preparation-consumable.md  %}
+> 
+> Needed material:
+> 
+> {% include _protocols/beer-dna-sequencing/library-preparation-material.md  %}
+{: .requirements}
 
 1. Mix the DNA by flicking the tube and spinning down briefly in a centrifuge, e.g. at 10 sec at 8000 RPM (use the "short" button on your centrifuge if available)
 2. Prepare the sequencing kit
@@ -138,13 +128,17 @@ The MinION flow cell contains up to 512 nanopores and the flongle flow cell up t
 3. Prepare a tube with 7.5 µl extracted DNA and 2.5 µl FRA
 
     > FRA is fragmentation mix, designed to perform a random fragmentation of genomic DNAs into smaller pieces by enzyme treatments.
+    {: .details}
 
 4. Mix gently by flicking the tube, and spin down
 5. Put the tubes into a thermocycler for 1 min at 30°C and then 1 min at 80°C
 
+    > A Thermocycler is a PCR machine to amplify DNA
+    >
     > Denaturation of DNA, i.e. the process by which double-stranded deoxyribonucleic acid unwinds and separates into single-stranded strands through the breaking of hydrophobic stacking attractions between the bases, takes place at 80°C. The primers are first annealed to target sequence at 30°C.
     >
     > ![](/images/protocols/beer-dna-sequencing/dna_denaturation.png){: width="50%"}
+    {: .details}
 
 6. Put the tube on ice until next step
 7. Attach adapters by adding 1 µl of RAP into the tube
@@ -152,12 +146,22 @@ The MinION flow cell contains up to 512 nanopores and the flongle flow cell up t
     > RAP contains adapters that are ligated to the DNA. These adapters are motor proteins, needed for the sequencing to guide the DNA fragments through the nanopores.
     >
     > ![](/images/protocols/beer-dna-sequencing/rap_explanation.png){: width="30%"}
+    {: .details}
 
 8. Mix gently by flicking the tube, and spin down
 9. Incubate the reaction for 5 min at room temperature
 10. Store the library on ice until ready to load
 
-## Sequencing
+# Sequencing
+
+> Needed consumables:
+>
+> {% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
+> 
+> Needed material:
+>
+> {% include _protocols/beer-dna-sequencing/sequencing-material.md  %}
+{: .requirements}
 
 1. Prepare the reagents
     1. Mix the SQB tube by vortexing, spin down and return to ice
@@ -185,6 +189,10 @@ The MinION flow cell contains up to 512 nanopores and the flongle flow cell up t
     - 34 μl Sequencing Buffer (SQB)
     - 25.5 μl Loading Beads (LB) (mix before adding)
     - 4.5 μl nuclease-free water
+
+    > "Normal" water contains nucleases which may degrade DNA
+    {: .details}
+
     - 11 μl DNA library
 
 7. Load the library into the flow cell
