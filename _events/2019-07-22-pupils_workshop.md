@@ -21,20 +21,20 @@ photos:
 
 On the 22st to 23rd of March, we held our first workshop with high school pupils for the [BeerDEcoded project]({% link _projects/beerdecoded.md %}) in Freiburg. Four pupils and one external participant made us a group of 10 people in total.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358150687_o.jpg"
 %}
 
 We started the day in the biology department at the University of Freiburg with a short introduction to beer, yeast, DNA and of course lab safety. We split the participants into two groups to bring in some competition: Who will extract and purify DNA the best? With some games the pupils learned to pipette accurately, organize the space in a centrifuge correctly and to enjoy the stimulation of a vortex mixer.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358152257_o.jpg
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358151967_o.jpg"
 %}
 
 These skills combined allowed us to reduce 2 bottles of beer to a drop of liquid, hopefully containing as much DNA as possible and minimal contamination. Remember the two groups? Well, at the end of the day we definitely learned something: Disciplined lab work does make a difference, we had a clear winner!
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358151462_o.jpg
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358152152_o.jpg
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358150612_o.jpg
@@ -43,7 +43,7 @@ These skills combined allowed us to reduce 2 bottles of beer to a drop of liquid
 
 At the following day we met again for the bioinformatics part - analyzing the data. Unfortunately, this had to be done with data from a different DNA extraction as we were lacking some necessary consumables. Looking at a mysterious FASTQ file, we worked together the decipher what was in front of us, benefiting from the crisp knowledge that pupils bring from school. The analysis with a Galaxy workflow not only allowed to identify a familiar sounding "Saccharomyces cerevisiae" among other species of yeast, but also to introduce the pupils in the work of a bioinformatician and the greater picture of the science behind BeerDeCoded.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358151272_o.jpg
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358017231_o.jpg
   /images/events/2019-07-22-pupils_workshop/1st-beerdecoded-workshop-with-pupils_48358017361_o.jpg

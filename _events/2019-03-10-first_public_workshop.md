@@ -21,13 +21,13 @@ photos:
 
 On the 31st of March, we hold our first public workshop for the [BeerDEcoded project]({% link _projects/beerdecoded.md %}) in Freiburg. Some students and external people participated to this event: 16 peoples in total, including us.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9661.jpg"
 %}
 
 We started the day with a short introduction to beer, yeast, DNA and of course lab safety. Then all participants took part in some fun games on pipetting and centrifuging to make them more comfortable with both.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9563.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9575.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9583.jpg
@@ -36,7 +36,7 @@ We started the day with a short introduction to beer, yeast, DNA and of course l
 
 We extracted yeast DNA of the not filtered Waldhaus, a local Black Forest beer.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9644.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9596.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9598.jpg
@@ -47,7 +47,7 @@ We extracted yeast DNA of the not filtered Waldhaus, a local Black Forest beer.
 
 Then DNA extraction went well. In parallel, we started our DNA sequencing protocol using a previously extracted DNA from Rothaus, another local beer. Here we encountered several problems during the library preparation and the sequencing likely due to mistakes in the protocols and reuse of old flowcell. We will improve the protocol to fix the issues.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9623.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9622.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9628.jpg
@@ -59,7 +59,7 @@ Then DNA extraction went well. In parallel, we started our DNA sequencing protoc
 
 We then analyzed the data using Galaxy.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2019-03-10-first_public_workshop/DSC_9613.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9656.jpg
   /images/events/2019-03-10-first_public_workshop/DSC_9538.jpg"
