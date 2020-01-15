@@ -5,7 +5,21 @@ image: /images/protocols/beer-dna-sequencing.jpg
 flowcell-select: true
 ---
 
-# To prepare before 
+This protocol describes how to sequence using a MinION the DNA extracted using the [Beer DNA extraction protocol]({% link _protocols/beer-dna-extraction.md %}).
+
+The protocol is in 3 parts:
+
+1. [Preparation of the MinION](#minion-preparation) with flow cell and software preparation
+2. [Library preparation](#library-preparation), i.e. prepare the DNA for sequencing
+3. [Sequencing](#sequencing) itself
+
+# To prepare before
+
+For this protocol, we will need ~400 ng DNA.
+{: .minion}
+
+For this protocol, we will need ~200 ng DNA.
+{: .flongle}
 
 ## Consumables
 
@@ -17,34 +31,42 @@ MinION preparation
 Library preparation
 
 {% include _protocols/beer-dna-sequencing/library-preparation-consumable.md  %}
+{: .requirements}
 
 Sequencing
 
 {% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
+{: .requirements}
 
 ## Material
 
 MinION preparation
 
 {% include _protocols/beer-dna-sequencing/minion-preparation-material.md  %}
+{: .requirements}
 
 Library preparation
 
 {% include _protocols/beer-dna-sequencing/library-preparation-material.md  %}
+{: .requirements}
 
 Sequencing
 
 {% include _protocols/beer-dna-sequencing/sequencing-material.md  %}
+{: .requirements}
 
 # MinION preparation
 
 > Needed consumables:
 >
-> {% include _protocols/beer-dna-sequencing/minion-preparation-consumable.md  %}
+> - MinION Flow Cell
+> {: .minion}
+> - Flongle Flow Cell
+> {: .flongle}
 >
 > Needed material:
 >
-> {% include _protocols/beer-dna-sequencing/minion-preparation-material.md  %}
+{% include _protocols/beer-dna-sequencing/minion-preparation-material.md  %}
 {: .requirements}
 
 ## Installation and preparation of the Nanopore Software
@@ -111,11 +133,11 @@ The MinION flow cell contains up to 512 nanopores and the flongle flow cell up t
 
 > Needed consumables:
 > 
-> {% include _protocols/beer-dna-sequencing/library-preparation-consumable.md  %}
+{% include _protocols/beer-dna-sequencing/library-preparation-consumable.md %}
 > 
 > Needed material:
 > 
-> {% include _protocols/beer-dna-sequencing/library-preparation-material.md  %}
+{% include _protocols/beer-dna-sequencing/library-preparation-material.md %}
 {: .requirements}
 
 1. Mix the DNA by flicking the tube and spinning down briefly in a centrifuge, e.g. at 10 sec at 8000 RPM (use the "short" button on your centrifuge if available)
@@ -158,11 +180,11 @@ The MinION flow cell contains up to 512 nanopores and the flongle flow cell up t
 
 > Needed consumables:
 >
-> {% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
+{% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
 > 
 > Needed material:
 >
-> {% include _protocols/beer-dna-sequencing/sequencing-material.md  %}
+{% include _protocols/beer-dna-sequencing/sequencing-material.md  %}
 {: .requirements}
 
 1. Prepare the reagents
