@@ -11,7 +11,8 @@ The protocol is in 3 parts:
 
 1. [Preparation of the MinION](#minion-preparation) with flow cell and software preparation
 2. [Library preparation](#library-preparation), i.e. prepare the DNA for sequencing
-3. [Sequencing](#sequencing) itself
+3. [Loading the DNA into the flow cell](#priming-and-loading-the-flow-cell)
+4. [Sequencing](#sequencing) using the nanopore technology
 
 # To prepare before
 
@@ -33,9 +34,9 @@ Library preparation
 {% include _protocols/beer-dna-sequencing/library-preparation-consumable.md  %}
 {: .requirements}
 
-Sequencing
+Loading the DNA into the flow cell
 
-{% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
+{% include _protocols/beer-dna-sequencing/flowcell-loading-consumable.md  %}
 {: .requirements}
 
 ## Material
@@ -48,6 +49,11 @@ MinION preparation
 Library preparation
 
 {% include _protocols/beer-dna-sequencing/library-preparation-material.md  %}
+{: .requirements}
+
+Loading the DNA into the flow cell
+
+{% include _protocols/beer-dna-sequencing/flowcell-loading-material.md  %}
 {: .requirements}
 
 Sequencing
@@ -69,16 +75,16 @@ Sequencing
 {% include _protocols/beer-dna-sequencing/minion-preparation-material.md  %}
 {: .requirements}
 
-## Installation and preparation of the Nanopore Software
+## Installation and preparation of the MinKNOW software
 
-> MinKNOW is the program needed to connect your computer with the small sequencing device MinION. The software has a graphical user interface for configuring and running the sequencing process. Furthermore, it has an integrated base-calling software to convert the raw Nanopore signals to the strings of nucleotides, in [fastq](https://en.wikipedia.org/wiki/FASTQ_format) file format.
+> MinKNOW software controls the small sequencing device (MinION) and collects sequencing data in real-time. The software has a graphical user interface for configuring and running the sequencing process. Furthermore, it has an integrated base-calling software to convert the raw nanopore signals to the strings of nucleotides, in [fastq](https://en.wikipedia.org/wiki/FASTQ_format) file format.
 {: .details}
 
-1. Create an account on the Nanopore Community
-2. Search for **"MinION Software"** on the [downloads page of Nanopore](https://community.nanoporetech.com/downloads)
-3. Select the operating system of the computer and download it
-4. Follow the installation instructions
-5. Launch the software called **MinKNOW**
+- Create an account on the Nanopore Community
+- Search for **"MinION Software"** on the [downloads page of Nanopore](https://community.nanoporetech.com/downloads)
+- Select the operating system of the computer and download it
+- Follow the installation instructions
+- Launch the software called **MinKNOW**
 
     On Linux
     - Open a terminal
@@ -86,35 +92,57 @@ Sequencing
 
 ## Preparation of the MinION
 
-1. Connect the MinION to the computer via USB
-2. Launch the **MinKNOW** software
+- Connect the MinION to the computer via USB
+
+    We should see a light and hear the fan on the MinION once successfully plugged in.
+
+- Launch the **MinKNOW** software
 
     ![](/images/protocols/beer-dna-sequencing/minknow_start.png){: width="50%"}
 
-3. Open the MinION lid
+- Open the MinION lid
 
-    ![](/images/protocols/beer-dna-sequencing/minion_explanation_1.png){: width="50%"}
+    ![](/images/protocols/beer-dna-sequencing/minion_configuration.png){: width="40%"}
 
-4. Remove the **Configuration Test Cell**
+- Remove the **Configuration Test Cell**
 
-5. Add a **flow cell** or a **flongle flow cell** with an adapter
+- Add a **flow cell**
 
-    Add explanation for a flongle
+    ![](/images/protocols/beer-dna-sequencing/minion-flowcell.png){: width="40%"}
+    {: .minion}
 
-6. Click on the MinION in MinKNOW software
-7. Click on **"Check flow cells"** (on the bottom)
+    ![](/images/protocols/beer-dna-sequencing/minion-flongle-parts.png){: width="40%"}
+    {: .flongle}
+
+    - Remove the CTC on the adapter
+    - Add the Flongle Flow Cell on the adapter
+    - Add the adapter with the Flongle Flow Cell on the MinION
+    {: .flongle}
+
+    ![](/images/protocols/beer-dna-sequencing/minion-flongle.png){: width="40%"}
+    {: .flongle}
+
+- Click on the flow cell in MinKNOW software
 
     ![](/images/protocols/beer-dna-sequencing/minknow_before_check_flowcell.png){: width="50%"}
 
-8. Click on **"Start test"** in the new 
+    With Flongle, we need to assign the Flow Cell ID manually. The ID is shown in the Flongle box in blue.
+    {: .flongle}
+
+- Click on **"Check flow cells"** (on the bottom)
+
+    > The test assess the number of nanopores that are available in the flow cell. 
+    {: .details}
+
+- Click on **"Start test"** in the new 
 
     ![](/images/protocols/beer-dna-sequencing/minknow_start_test.png){: width="50%"}
 
-9. Click on **Jump to run** and then the active run, on the welcome page of MinKNOW
+- Click on **Jump to run** and then the active run, on the welcome page of MinKNOW
 
     ![](/images/protocols/beer-dna-sequencing/minknow_start_test_after.png){: width="50%"}
 
-10. Wait for the tests to be done
+- Wait for the tests to be done
 
     > The flow cell is first getting to 37°C and then each nanopores in the flow cell are checked.
     >
@@ -123,13 +151,24 @@ Sequencing
     > Due to sequencing runs and time, the nanopore complexes tend to be deteriorated and become dead, and could not read the DNA strand.
     {: .details}
 
-11. Click on the right side under message to check how many pores are available for sequencing
+- Click on the right side under message to check how many pores are available for sequencing
 
     ![](/images/protocols/beer-dna-sequencing/minknow_after_check_flowcell.png){: width="50%"}
 
-The MinION flow cell contains up to 512 nanopores and the flongle flow cell up to ... nanopores. ... should be available to run sequencing.
+To run sequencing, we need at least 800 nanopores.
+{: .minion}
+
+To run sequencing, we need at least 60 nanopores for FLO-FLG001 and 30 for FLO-FLGOP1.
+{: .flongle}
 
 # Library preparation
+
+> We need now to prepare the DNA to attach sequencing adapters that will lead the DNA fragments through the nanopores. This step is called "Library preparation" (a library being a collection of randomly sized DNA represented the sample, here the beer yeast DNA) and consist of:
+>
+> 1. Fragmentation of our DNA and addition some transposase adapters
+> 2. Attachement of sequencing adapters on the top of the transposase adapters
+>
+{: .details}
 
 > Needed consumables:
 > 
@@ -140,105 +179,286 @@ The MinION flow cell contains up to 512 nanopores and the flongle flow cell up t
 {% include _protocols/beer-dna-sequencing/library-preparation-material.md %}
 {: .requirements}
 
-1. Mix the DNA by flicking the tube and spinning down briefly in a centrifuge, e.g. at 10 sec at 8000 RPM (use the "short" button on your centrifuge if available)
-2. Prepare the sequencing kit
-    1. Thaw to room temperature
-    2. Briefly spin down each reagent
-    3. Mix well by pipetting (up and down) each reagent
-    4. Keep all the kit components on ice once thawed
+## DNA fragmentation and addition of transposase adapters
+
+> ![](/images/protocols/beer-dna-sequencing/dna_tagmentation.png){: width="70%"}
+>
+{: .details}
+
+- Prepare the sequencing kit (FRA & RAP)
+    - Thaw at room temperature
+    - Briefly spin down each reagent briefly by vortexing
+    - Mix well by pipetting (up and down) each reagent
+    - Keep all the kit components on ice once thawed
 
     Before using each reagent, repeat the mixing step
 
-3. Prepare a tube with 7.5 µl extracted DNA and 2.5 µl FRA
+- Prepare the DNA 
+    - Transfer the ~400 ng DNA into a new tube
+    {: .minion}
+    - Transfer the ~200 ng DNA into a new tube
+    {: .flongle}
 
-    > FRA is fragmentation mix, designed to perform a random fragmentation of genomic DNAs into smaller pieces by enzyme treatments.
+    - Adjust the volume to 7.5 μl with nuclease-free water
+
+        > "Normal" water contains nucleases which may degrade DNA
+        {: .details}
+    {: .minion}        
+
+    - Adjust the volume to 3.75 μl with nuclease-free water
+
+        > "Normal" water contains nucleases which may degrade DNA
+        {: .details}
+    {: .flongle}
+
+    - Mix by flicking the tube 
+    - Spinning down briefly in a centrifuge, e.g. at 10 sec at 8000 RPM (use the "short" button on your centrifuge if available)
+
+- Prepare a PCR tube with the 7.5 µl extracted DNA and 2.5 µl FRA
+
+    > FRA contains transposome complexes with transposase adapters. The transposome complexes will fix at different positions on the DNA.
+    {: .details}
+{: .minion}
+
+- Prepare a PCR tube with the 3.75 µl extracted DNA and 1.25 µl FRA
+
+    > FRA contains transposome complexes with transposase adapters. The transposome complexes will fix at different positions on the DNA.
+    {: .details}
+{: .flongle}
+
+- Mix gently by flicking the tube, and spin down
+- Put the tubes into a thermocycler for 1 min at 30°C and then 1 min at 80°C
+
+    > The DNA will be fragmented where the transposome complexes are fixed and transposase adapters will be added there.
     {: .details}
 
-4. Mix gently by flicking the tube, and spin down
-5. Put the tubes into a thermocycler for 1 min at 30°C and then 1 min at 80°C
+- Put the tube on ice until next step
 
-    > A Thermocycler is a PCR machine to amplify DNA
-    >
-    > Denaturation of DNA, i.e. the process by which double-stranded deoxyribonucleic acid unwinds and separates into single-stranded strands through the breaking of hydrophobic stacking attractions between the bases, takes place at 80°C. The primers are first annealed to target sequence at 30°C.
-    >
-    > ![](/images/protocols/beer-dna-sequencing/dna_denaturation.png){: width="50%"}
+## Sequencing adapter attachment
+
+> ![](/images/protocols/beer-dna-sequencing/adapter_attachment.png){: width="40%"}
+>
+{: .details}
+
+- Add 1 µl of RAP into the tube
+
+    > RAP contains sequencing adapters that are ligated to the DNA on the transposase adapters.
+    > 
+    > These sequencing adapters have the motor proteins, needed for the sequencing to guide the DNA fragments through the nanopores.
     {: .details}
+{: .minion}
 
-6. Put the tube on ice until next step
-7. Attach adapters by adding 1 µl of RAP into the tube
+- Add 0.5 µl of RAP into the tube
 
-    > RAP contains adapters that are ligated to the DNA. These adapters are motor proteins, needed for the sequencing to guide the DNA fragments through the nanopores.
-    >
-    > ![](/images/protocols/beer-dna-sequencing/rap_explanation.png){: width="30%"}
+    > RAP contains sequencing adapters that are ligated to the DNA on the transposase adapters.
+    > 
+    > These sequencing adapters have the motor proteins, needed for the sequencing to guide the DNA fragments through the nanopores.
     {: .details}
+{: .flongle}
 
-8. Mix gently by flicking the tube, and spin down
-9. Incubate the reaction for 5 min at room temperature
-10. Store the library on ice until ready to load
+- Mix gently by flicking the tube, and spin down
+- Incubate the reaction for 5 min at room temperature
+- Store the library on ice until ready to load
 
-# Sequencing
+# Priming and loading the flow cell
+
+> The DNA is ready, so we can now load it into the flow cell to start the sequencing. Before, we need to prime the flow cell. 
+>
+{: .details}
 
 > Needed consumables:
 >
-{% include _protocols/beer-dna-sequencing/sequencing-consumable.md  %}
+{% include _protocols/beer-dna-sequencing/flowcell-loading-consumable.md  %}
 > 
 > Needed material:
 >
-{% include _protocols/beer-dna-sequencing/sequencing-material.md  %}
+{% include _protocols/beer-dna-sequencing/flowcell-loading-material.md  %}
 {: .requirements}
 
-1. Prepare the reagents
-    1. Mix the SQB tube by vortexing, spin down and return to ice
-    2. Mix the FB tube by vortexing, spin down and return to ice
-    3. Spin down the FLT tube, mix by pipetting, and return to ice
+- Prepare the reagents (SQB, LB, FLT and FB)
+    - Thaw at room temperature
+    - Mix the Sequencing Buffer (SQB) and Flush Buffer (FB) tubes by vortexing, spin down and return to ice
+    - Spin down the Flush Tether (FLT) tube, mix by pipetting, and return to ice
 
-2. Prepare MinION for loading
+- Prepare MinION for loading
 
-    ![](/images/protocols/beer-dna-sequencing/minion_explanation_2.png){: width="50%"}
+    - Slide the **priming port cover** clockwise to make the priming port visible
 
-    1. Open **priming port** on the flowcell to check for small bubbles
-    2. Remove possible bubbles by taking 200 µl liquid from the port using the P1000 pipette
-    3. Remove the liquid by turning the wheel of the pipet but only until 220-230 µl
+        ![](/images/protocols/beer-dna-sequencing/minion-flowcell-priming.png){: width="50%"}
 
-    Note: removing more than 30 µl will damage the pores in the array because they need to be covered by the buffer at all times
+    - Remove possible bubbles
+        - Set of P1000 pipette to 200 µl
+        - Insert the tip into the priming port
+        - Turn the wheel of the pipette until 220-230 µl
 
-3. Prepare the **priming mix**
-    1. Add 30 µl of Flush Tether (FLT) directly to the Flush Buffer (FB) Eppi tube
-    2. Mix by pipetting
+            Removing more than 30 µl will damage the pores in the array because they need to be covered by the buffer at all times
 
-4. Load 800 μl of the priming mix into the flow cell via the priming port, avoiding introduction of air bubbles
-5. Wait for 5 minutes
+    - Check visually that the buffer is continuous from the priming port to the sensor array via the inlet channel
+{: .minion}
+    
+- Prepare the **priming mix**
+    - Add 30 µl of Flush Tether (FLT) directly to the Flush Buffer (FB) tube
+    {: .minion}
 
-6. Prepare **library** for loading by mixing in a new tube
-    - 34 μl Sequencing Buffer (SQB)
-    - 25.5 μl Loading Beads (LB) (mix before adding)
-    - 4.5 μl nuclease-free water
+    - Mix 3 µl of Flush Tether (FLT) with 117 µl of Flush Buffer (FB) in a 1.5 ml Eppendorf DNA tube
+    {: .flongle}
 
-    > "Normal" water contains nucleases which may degrade DNA
+    - Mix by pipetting up and down
+
+    > The priming mix includes chemicals that improve the rate of sequencing.
     {: .details}
 
-    - 11 μl DNA library
+- Remove the seal table from the Flongle flow cell to expose the sample port
+    - Lift up the seal tab
+    - Pull the seal tab to open access to the sample port
+    - Hold the seal tab open by using adhesive on the tab to stick to the lid
 
-7. Load the library into the flow cell
+    ![](/images/protocols/beer-dna-sequencing/flongle-port.png){: width="50%"}
+{: .flongle}
 
-    ![](/images/protocols/beer-dna-sequencing/minion_explanation_2.png){: width="50%"}
+- Load 800 μl of the priming mix via the priming port, avoiding introduction of air bubbles
+{: .minion}
 
-    1. Gently lift the sample port cover to make the sample port accessible
-    2. Load 200 μl of the priming mix into the flow cell via the **priming port (not the SpotON sample port)**, avoiding introduction of air bubbles
-    3. Mix the prepared library gently by pipetting up and down prior to loading
-    4. Add 75 μl of the library preparation to the flow cell via the SpotON sample port in a dropwise fashion
+- Load the priming mix via the sample port
+    - Load the primix mix into a P200 pipettte
+    - Place the P200 pipette tip inside the sample port
+    - Slowly dispense the priming fluid by twisting the pipette plunger down
     
-        Ensure each drop flows into the port before adding the next
+    Make sure there is no air gap in the sample port or the pipette tip
+{: .flongle}
 
-    5. Gently replace the sample port cover
-    6. Making sure the bung enters the SpotON port
-    7. Close the priming port and the MinION lid
+- Wait for 5 minutes
+{: .minion}
 
-8. Launch the sequencing
+- Prepare **library** for loading by mixing in a new tube
+    - 34 μl Sequencing Buffer (SQB)
+    {: .minion}
+    - 13.5 μl Sequencing Buffer (SQB)
+    {: .flongle}
 
+    - 25.5 μl Loading Beads (LB) (mix before adding)
 
-## Cleaning
+        > The loading beads bring the DNA fragments closer to the nanopores. 
+        {: .details}
+    {: .minion}
 
-1. Wash the flow cell (not the flongle flow cell)
-2. Remove the flow cell
-1. Put the **Configuration Test Cell** in
+    - 11 μl Loading Beads (LB) (mix before adding)
+
+        > The loading beads bring the DNA fragments closer to the nanopores. 
+        {: .details}
+    {: .flongle}
+
+    - 4.5 μl nuclease-free water
+    {: .minion}
+
+    - 11 μl DNA library
+    {: .minion}
+    - 5.5 μl DNA library
+    {: .flongle}
+
+- Load the library mix into the flow cell
+
+    - Gently lift the SpotON port cover to make the SpotON port accessible
+
+        ![](/images/protocols/beer-dna-sequencing/minion-flowcell-spoton.png){: width="50%"}
+
+    - Load 200 μl of the priming mix into the **priming port (not the SpotON port)**, avoiding introduction of air bubbles
+
+        > It clears any blockages near the SpotON port.
+        {: .details}
+
+    - Mix the prepared library gently by pipetting up and down prior to loading
+    - Add 75 μl of the library preparation into the **SpotON port** drop by drop
+    
+        Make sure that each drop flows into the port before adding the next
+
+    - Gently replace the SpotON port cover
+    - Making sure the bung enters the SpotON port
+    - Close the priming port
+    {: .minion}
+
+    - Load the library mix into a P100 pipette
+    - Place the P100 tip inside the sample port
+    - Slowly dispense the priming fluid by twisting the pipette plunger down
+    - Stick the adhesive tape to the sample port
+    - Replace the seal tab
+    {: .flongle}
+
+- Close the MinION lid
+
+# Sequencing
+
+> We can now start the sequencing itself.
+>
+> The DNA fragments going through nanopores modify the electric current. The difference of current intensity depends on the nucleotide (A, T, C, G). This information is used to directly read the nucleotide sequence of a DNA fragment.
+>
+> The DNA fragments in the library mix are directed toward the nanopores on the flowcell. The motor protein on the DNA fragment are fixed to the nanopore, open the double strand DNA, direct one strand through the nanopore in which bases are read one by one. Once the full fragment is read, another one will be read such as at the end all DNA fragments are read.
+>
+> ![](/images/protocols/beer-dna-sequencing/nanopore_sequencing.png){: width="75%"}
+>  
+> To read the differences of current intensity and transform it into a useful nucleotide sequence, we need to use the MinKNOW software, which will collect raw data from the MinION and convert it into sequences.
+{: .details}
+
+- Launch the **MinKNOW** software
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_start.png){: width="50%"}
+
+- Select on the flow cell
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_before_check_flowcell.png){: width="50%"}
+
+- Click on **"New Experiment"** on the bottom left
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_new_experiment.png){: width="50%"}
+
+- Add the name of the beer as experiment name in the first box and the date in the sample box
+
+- Select **SQK-RAD004** in the **Kit** tab
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_kit.png){: width="50%"}
+
+- Check in the **Basecalling** tab that 
+    - **"Basecalling"** is "On"
+    - **"Basecalling model"** is "Fast basecalling"
+    - **"Barcoding"** is "Off"
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_basecalling_tab.png){: width="50%"}
+
+- Change the **"Run lenght"** to 4 in the **Run Options** tab
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_run_options.png){: width="50%"}
+
+- Select in the **Output** tab
+    - Location to store the generated files
+    - Output format
+        - **FAST5**: raw signal, FASTQ record, and 4,000 reads per files
+        - **FASTQ**: 4,000 reads per files
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_output_tab.png){: width="50%"}
+
+- Click on **Start run**
+
+Once the sequencing started, information will be available to follow the sequencing process:
+
+- Status of the nanopore (1st graph)
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_channel_panel.png){: width="50%"}
+
+    Check that the number of active pores reported are similar (within 10-15%) to those reported at the end of the Flow Cell Check
+
+- Number of DNA fragments (reads) that have been sequenced
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_read_nb.png){: width="50%"}
+
+- Length (number of bases) sequenced for the DNA fragments
+
+    ![](/images/protocols/beer-dna-sequencing/minknow_read_length.png){: width="50%"}
+
+# Cleaning
+
+- Quit MinKNOW by closing it down
+- Disconnect the MinION
+- Wash the flow cell with the Washing Kit
+{: .minion}
+- Remove the flow cell from the MinION
+- Put the **Configuration Test Cell** back in
