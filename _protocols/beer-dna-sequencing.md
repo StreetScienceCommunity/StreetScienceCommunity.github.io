@@ -2,6 +2,7 @@
 layout: default
 title: Beer DNA sequencing
 image: /images/protocols/beer-dna-sequencing.jpg
+flowcell-select: true
 ---
 
 # To prepare before 
@@ -10,7 +11,8 @@ image: /images/protocols/beer-dna-sequencing.jpg
 
 MinION preparation
 
-{% include _protocols/beer-dna-sequencing/minion-preparation-consumable.md  %}
+> - {% include _includes/beer-dna-sequencing-flowcell-select.html %}
+{: .requirements}
 
 Library preparation
 
