@@ -35,6 +35,12 @@
 
         minion.onclick = showMinION;
         flongle.onclick = showFlongle;
+
+        if (window.location.search.match(/\?flongle/gi)) {
+            showFlongle();
+            flongle.checked = true;
+            minion.checked = false;
+        }
     });
 
 })(window, document);
