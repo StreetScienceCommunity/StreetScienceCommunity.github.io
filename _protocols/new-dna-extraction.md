@@ -64,13 +64,14 @@ Needed consumables:
 12. Resuspend the cells (with ca. 1ml 1M TrisHCl buffer pH 7.4) 
 13. Transfer the solution into a 1.5 ml Eppendorf tube (eppi).
    ![](/images/protocols/beer-dna-extraction/transfer_to_eppendorf.svg){: width="20%"}
-14. Centrifuge 4000 rpm 10 min 4°C
+14. Centrifuge 8000 rcf 5 min 4°C
 15. Discard supernatant
-16. Weigh each of the 6 eppy pellets (use empty 1.5ml eppi as tara): weights of one pellet between 30mg and 60mg 
-17. Resolve the pellets by adding 500 μL and pipet up and down 
-18. Combine the solution of two eppis into one to achieve ca. 70-90mg pellet per eppi (final # of eppis: 3)
-19. Centrifuge 4000 rpm 10 min 4°C
-20. Discard supernatant
+16. Weigh each of your eppy pellets (use empty 1.5ml eppi as tara): weights of one pellet between 30mg and 60mg
+17. Now we like to come to approx. 70-90mg pellet per eppi: 
+	- Resolve the pellets by adding 500 μL and pipet up and down 
+	- Eventually combine or split the solution of eppis to achieve ca. 70-90 mg pellet per eppi
+	- Centrifuge 8000 rcf 5 min 4°C
+	- Discard supernatant
 
 
 
@@ -83,10 +84,10 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 
 - Suspend cells:
  1. add an appropriate amount of the Y-PER Reagent. Scale the amount of Y-PER Reagent accordingly, maintaining a ratio of 8μL/1mg pellet. 
-	- We assume all pellets correspond to 80 mg and added 640µl Y-PER
+	- For symplification we assume all pellets correspond to 80 mg and added 640µl Y-PER
  2. Mix by pipetting up and down until the mixture is homogenous
-- Incubate at 65°C for 10 minutes. (can be extended – SHOULD BE EXTENDED??)
-- Centrifuge at 13,000 × g for 5 minutes 
+- Incubate at 65°C for 10 - 30 minutes.
+- Centrifuge at 13,000 rcf for 5 minutes 
 - Discard supernatant
 
 
@@ -95,13 +96,13 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 - Add 400μL of DNA Releasing Reagent A
 - Add 400μL of DNA Releasing Reagent B
 - Mix by pipetting up and down until the mixture is homogenous
-- Incubate at 65°C for 10 minutes. (can be extended – SHOULD BE EXTENDED??)
+- Incubate at 65°C for 10 - 30 minutes. 
 
 
 ### STEP 4: Stop protein activity in the solution
 - Add 200μL of Protein Removal Reagent to mixture
 - Invert eppy several times (>20x)
-- Centrifuge at least 13,000 × g for 5 minutes 
+- Centrifuge at least 13,000 rcf for 5 minutes 
 - Transfer supernatant (only 900µl!!!!!) to a new 1.5mL eppy
   - try to not touch the pellet with the pipet tip 
 
@@ -109,7 +110,7 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 ### STEP 5: Separate the DNA from other molecules
 - Add 600μL isopropyl alcohol to fill tube
 - Invert eppy several times gently (>20x)
-- Separate DNA by centrifuging the mixture at 13,000 × g for 10 minutes. 
+- Separate DNA by centrifuging the mixture at 13,000 rcf for 10 minutes. 
  - The DNA be at the bottom of the eppy (pellet)
 - Remove supernatant, being careful not to discard any of the pellet, which is clear and hard to see. 
 
@@ -117,7 +118,7 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 ### STEP 6: Wash the DNA to remove unwanted substances
 - Add 1.5mL of 70% ethanol to the pellet
 - invert eppy several times (>20x)
-- Centrifuge at 13,000 × g for 1 minute to wash off any residual salts or cellular debris clinging to the DNA or tube. 
+- Centrifuge at 13,000 rcf for 1 minute to wash off any residual salts or cellular debris clinging to the DNA or tube. 
 - Invert the eppy carfully but in one go to remove the liquide, without damageing the pellet
 - to dry any residual ethanol before proceeding to Step 7 place the eppy up side down on a tissue. (took approx. 30-45min)
 
