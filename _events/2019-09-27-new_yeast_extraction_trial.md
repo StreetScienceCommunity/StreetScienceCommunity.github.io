@@ -1,6 +1,6 @@
 ---
 layout: event
-image: /images/events/2019-09-27-new_yeast_extraction_trail/yeast_extraction.jpg
+image: /images/events/2019-09-27-new_yeast_extraction_trial/yeast_extraction.jpg
 tags: [talk, training]
 title: 'BeerDEcoded: New DNA extraction protocol trial'
 description: 'September, 27nd, 2019'

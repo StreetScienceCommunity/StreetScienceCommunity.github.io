@@ -1,6 +1,6 @@
 ---
 layout: event
-image: /images/events/2019-10-27-sequencing_flongle_trail/flongle_flowcell.jpg
+image: /images/events/2019-10-27-sequencing_flongle_trial/flongle_flowcell.jpg
 tags: [talk, training]
 title: 'BeerDEcoded: Test flongle and sequencing protocol'
 description: 'Oktober, 27nd, 2019'

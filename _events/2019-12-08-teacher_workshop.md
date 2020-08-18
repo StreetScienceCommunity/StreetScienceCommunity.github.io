@@ -22,4 +22,4 @@ photos:
 On the 8th of December, we hold our one-day workshop of the [BeerDEcoded project]({% link _projects/beerdecoded.md %}) for high school teachers in the biology labratory of the University of Freiburg.
 We did prepare already extracted DNA of a beer sample for sequencing.
 The aim of the workshop was to get teachers interested in our Workshops and establish contacts to high schools. 
-At the end of the workshop we had a session where we dicussed possible cooperations. In the end we came up with a plan to split the workshop into several small 2h sessions, so that pupils can do this as one biology teaching unit e.g. over one month. 
+At the end of the workshop we had a session where we dicussed possible cooperations. In the end we came up with a plan to split the workshop into several small 2h sessions, so that pupils can do this as one biology teaching unit e.g. over one month.
