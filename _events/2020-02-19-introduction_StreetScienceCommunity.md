@@ -2,8 +2,8 @@
 layout: event
 image: /images/events/2020-02-19-introduction_StreetScienceCommunity/Galaxy_workshop_presentation.jpg
 tags: [talk, training]
-title: 'BeerDEcoded: Introduction of the StreetScienceCommunity to scintist'
-description: 'September, 19nd, 2020'
+title: 'StreetScienceCommunity: Introduction of the Street Science Community to scientists'
+description: 'September, 19th, 2020'
 starts: 2020-02-19
 ends: 2020-02-19
 location:
@@ -19,5 +19,4 @@ photos:
   url: https://www.flickr.com/photos/134305289@N03/shares/AmKS19
 ---
 
-On the 19th of Februaray we introduced the [BeerDEcoded project]({% link _projects/beerdecoded.md %}) and the Street Scinenc Community to a scintific audiace. The aim was to increas the publicity of our project and to attracet scintist which are interesed to join the project.
-In the beginning of a galaxy workshop we gave a 15 minutes talk followed by questions of the audience. 
+On the 19th of February we introduced the [BeerDEcoded project]({% link _projects/beerdecoded.md %}) and the Street Science Community to a scientific audience. The aim was to increase the publicity of our project and to attract scientists who are interested to join the project. At the beginning of a galaxy workshop we gave a 15 minutes talk followed by questions from the audience. 
