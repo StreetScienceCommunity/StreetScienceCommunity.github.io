@@ -1,6 +1,18 @@
 ---
 layout: slides
-title: "Further Imformation about Nanopore-Sequencing"
+title: "Further Information about Nanopore Sequencing"
+---
+
+### Ingredients
+
+
+- **Fragmentation Mix (FRA):** Ligases (Exonucleases) to cut DNA into shorter pieces. Will cut at certain sequences.
+- **Rapid Sequencing Adapter (RAP):** Ligation of adapters to the DNA fragments (leader and hairpin adapter). The leader adapter will allow the DNA to dock to the nanopore. The hairpin adapter is then for the complement strand.
+- **Flush Tether (FLT):** Guides the motorprotein to the pores.
+- **Seqeuncing Buffer (SQB):** For the ionic current.
+- **Flush Buffer (FB):** For washing.
+- **Loading Beads (LB):** To increase the molecular weight of the DNA. Helps to suck the DNA from the loading port into the flowcell.
+
 ---
 
 ### Technical Remarks
@@ -10,8 +22,8 @@ title: "Further Imformation about Nanopore-Sequencing"
 - The nanopore itself is strong enough to open up the ds. A helicase is not necessary.
 - The MinION has 4 pores for 512 channels (in total 2048 pores).
 - During the sequencing the MinION uses only one pore per channel. Every hour the lane will be checked and perhaps the MinION swaps to a different pore.
-- The quality of the reads decreases at the end of a read like in Illumina Sequencing.
-- Average length 2-10 kb reads. Error Rate 15-40%.
+- The quality of the reads not decreases at the end of a read like in Illumina Sequencing.
+- Average length 2-10 kb reads. Error Rate 15-40% (which comes mostly from the basecalling).
 - Change between template and complement strand is recognized by a specific signal of a site located in the hairpin adapter.
 - [Literature](https://www.researchgate.net/publication/317848322_Nanopore_sequencing_data_analysis_state_of_the_art_applications_and_challenges)
 
