@@ -38,7 +38,7 @@ description: An immersion into biology, bioinformatics & sciences via beer and t
 ## Previous workshops
 
 We already organized several BeerDEcoded workshops over the last year. You can read more about
- them by checking our [events]({% link events.md %}).
+them by checking our [events]({% link events.md %}).
 
 ## Why?
 
@@ -68,4 +68,4 @@ web-based platform for computational biology and bioinformatics.
 
 ## Some pictures
 
-{% include projects/beerdecoded.html %}
+{% include _includes/projects/beerdecoded.html %}

@@ -69,6 +69,22 @@ pdf: detached-serve ## generate the PDF of the protocols
             "$(SITE_URL)/protocols/$$t?without-details" \
             2> /dev/null ; \
 	done
+
+	${CHROME} \
+		--headless \
+		--disable-gpu \
+		--print-to-pdf="$(PDF_DIR)/beer-dna-sequencing-flongle-instructor.pdf" \
+		"$(SITE_URL)/protocols/beer-dna-sequencing?flongle" \
+		2> /dev/null
+
+	${CHROME} \
+		--headless \
+		--disable-gpu \
+		--print-to-pdf="$(PDF_DIR)/beer-dna-sequencing-flongle-learners.pdf" \
+		"$(SITE_URL)/protocols/beer-dna-sequencing?flongle?without-details" \
+		2> /dev/null
+	
+
 	pkill -f jekyll
 .PHONY: pdf
 

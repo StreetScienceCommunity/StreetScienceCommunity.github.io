@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // the `<details>` blocks (i.e. the Q&A sections most of the time).
       if (window.location.search.match(/\?without-details/gi)) {
           // Loop over all the `<blockquote>` tags and hide them.
-          var blockquote = document.querySelectorAll('blockquote');
+          var blockquote = document.querySelectorAll('.details');
           Array.prototype.forEach.call(blockquote, function (blockquote) {
               blockquote.innerHTML = '';
               blockquote.style.display = 'none';
