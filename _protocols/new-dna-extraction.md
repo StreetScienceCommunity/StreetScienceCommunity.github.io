@@ -83,9 +83,17 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 *A yeast cell - Frankie Robertson, CC ASA, [Wikimedia](https://en.wikipedia.org/wiki/File:Yeast_cell_english.svg)*
 
 - Suspend cells:
- 1. add an appropriate amount of the Y-PER Reagent. Scale the amount of Y-PER Reagent accordingly, maintaining a ratio of 8μL/1mg pellet. 
-	- For symplification we assume all pellets correspond to 80 mg and added 640µl Y-PER
- 2. Mix by pipetting up and down until the mixture is homogenous
+
+	1. Add 640µl of the Y-PER Reagent.
+
+		[Y-PER](https://www.thermofisher.com/order/catalog/product/78991#/78991) is a detergent optimized for yeast cell lysis. 
+
+		The amount of Y-PER reagent is calculated by taking the ratio of 8μL(reagent)/1mg pellet
+
+		For simplification we assume all pellets correspond to 80 mg and added 640µl Y-PER
+
+	2. Mix by pipetting up and down until the mixture is homogenous
+
 - Incubate at 65°C for 10 - 30 minutes.
 - Centrifuge at 13,000 rcf for 5 minutes 
 - Discard supernatant
@@ -95,6 +103,9 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 
 - Add 400μL of DNA Releasing Reagent A
 - Add 400μL of DNA Releasing Reagent B
+
+	A protein Removal Reagent can be protease to digest proteins or a salt solution to precipitate protein (salting-out).
+
 - Mix by pipetting up and down until the mixture is homogenous
 - Incubate at 65°C for 10 - 30 minutes. 
 
@@ -111,8 +122,11 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 - Add 600μL isopropyl alcohol to fill tube
 - Invert eppy several times gently (>20x)
 - Separate DNA by centrifuging the mixture at 13,000 rcf for 10 minutes. 
- - The DNA be at the bottom of the eppy (pellet)
-- Remove supernatant, being careful not to discard any of the pellet, which is clear and hard to see. 
+- The DNA should be at the bottom of the eppy (pellet)
+- Remove supernatant (here: liquit above you), being careful not to discard any of the pellet, which is clear and hard to see.
+
+	DNA is negatively charged, therefore hydrophilic (dissolves in water). The carbon chain of alcohol is hydrophobic, so the DNA is less soluble and precipitates. Isopropanol and ethanol are alcohol. Isopropanol has a longer carbon chain than ethanol (therefore more hydrophobic) and thus precipitates DNA stronger than ethanol.
+The problem is that isopropanol also precipitates salts. To remove salts, we wash the DNA pellet with ethanol in STEP 6. 
 
 
 ### STEP 6: Wash the DNA to remove unwanted substances
