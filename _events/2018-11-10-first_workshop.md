@@ -31,7 +31,7 @@ the initial feedback is overwhelming. It was a blast to do some wet-lab work,
 specially as most of us, as bioinformaticians and computer scientists, are not
 used to it!
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2018-11-10-first_workshop/DSC_6931.jpg
   /images/events/2018-11-10-first_workshop/DSC_6878.jpg
   /images/events/2018-11-10-first_workshop/DSC_6852.jpg
@@ -46,7 +46,7 @@ DNA of the yeast inside this beer. To do so, we:
 
 - Extracted the yeast from the beer with several centrifuge runs
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2018-11-10-first_workshop/DSC_6863.jpg
   /images/events/2018-11-10-first_workshop/DSC_6867.jpg
   /images/events/2018-11-10-first_workshop/DSC_6889.jpg
@@ -55,7 +55,7 @@ DNA of the yeast inside this beer. To do so, we:
 
 - Broke the cell membranes of the yeasts using an ethanol bath and a lysis buffer
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2018-11-10-first_workshop/DSC_6900.jpg
   /images/events/2018-11-10-first_workshop/DSC_6919.jpg
   /images/events/2018-11-10-first_workshop/DSC_6938.jpg
@@ -64,7 +64,7 @@ DNA of the yeast inside this beer. To do so, we:
 
 - Extracted the DNA from the cell using magnetic beads and a MinElute Reaction Kit 50 from Qiagen
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2018-11-10-first_workshop/DSC_7003.jpg
   /images/events/2018-11-10-first_workshop/DSC_6993.jpg
   /images/events/2018-11-10-first_workshop/DSC_6994.jpg
@@ -87,7 +87,7 @@ During the DNA extracted, we started to play with the MinION with the
 installation of the Nanopore software and ran a functional test of the flowcell.
 We then did the library preparation: preparation of the DNA for sequencing.
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2018-11-10-first_workshop/DSC_6857.jpg
   /images/events/2018-11-10-first_workshop/DSC_6954.jpg
   /images/events/2018-11-10-first_workshop/DSC_6853.jpg
@@ -96,7 +96,7 @@ We then did the library preparation: preparation of the DNA for sequencing.
 
 We then loaded the MinION with our DNA and launched the sequencing
 
-{% include event-images.html images="
+{% include _includes/event-images.html images="
   /images/events/2018-11-10-first_workshop/DSC_6951.jpg
   /images/events/2018-11-10-first_workshop/DSC_6946.jpg
   /images/events/2018-11-10-first_workshop/DSC_6973.jpg
@@ -113,7 +113,7 @@ _protocols/beer-dna-sequencing.md %}).*
 Milad then analyzed the generated sequences and extracted some *Saccharomyces
 cerevisae*.
 
-{% include event-images.html images="/images/events/2018-11-10-first_workshop/analysis_taxonomy.png" %}
+{% include _includes/event-images.html images="/images/events/2018-11-10-first_workshop/analysis_taxonomy.png" %}
 
 Very promising results (given we stoped the sequencing)!
 

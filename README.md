@@ -90,3 +90,8 @@ In the sequel, we assume you use miniconda.
 
 7. Open the website in your favorite browser at:
    [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+
+## How can I generate the PDFs for the protocols locally?
+
+The protocols can be extracted to PDFs in 2 versions: one for participants/pupils with only the instructions, one for the instructors/teachers with instructions and details
