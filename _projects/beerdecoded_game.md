@@ -8,7 +8,7 @@ description: An online game to analyze BeerDEcoded data
 # Learn in an interactive game about DNA, beer, sequencing, and Galaxy.
 
 ## Our Vision
-Scepticisms arises more and more because of false information and one-sided perspectives. Scientific advancements such as sequencing is often connote with distrust, and words like gene therapy or gene editing triggers in most people a surreal fear. We think that science is not accessible enough for citizens and we see a lack of a fun platform to learn about metagenomic data analysis. Thus we are currently developing the first citizen-reviewed game for a Galaxy instance.
+Over the last years public media is reporting more and more about scientific advancements. This awakes the intresct in science but also scepticisms in citizen. Scientific advancements such as sequencing, gene therapy or gene editing are often used within media but rarely explaind by experts. We think that science is not accessible enough for citizens and we see a lack of a fun platform to learn about metagenomic data analysis. Thus we are currently developing the first citizen-reviewed game for a Galaxy instance.
 
 ## The Idea
 We want to created a gaming parkour so people can dive into science and our project in a playful matter. They will learn about metagenomic data from the raw sequencing files to the interpretation of the data analysis. We will use Galaxy as a platform to teach about sequencing data, microbiota data analysis, and Galaxy itself.
