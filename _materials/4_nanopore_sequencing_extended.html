@@ -1,0 +1,54 @@
+---
+layout: slides
+title: "Further Information about Nanopore Sequencing"
+---
+
+### Ingredients
+
+
+- **Fragmentation Mix (FRA):** Ligases (Exonucleases) to cut DNA into shorter pieces. Will cut at certain sequences.
+- **Rapid Sequencing Adapter (RAP):** Ligation of adapters to the DNA fragments (leader and hairpin adapter). The leader adapter will allow the DNA to dock to the nanopore. The hairpin adapter is then for the complement strand.
+- **Flush Tether (FLT):** Guides the motorprotein to the pores.
+- **Seqeuncing Buffer (SQB):** For the ionic current.
+- **Flush Buffer (FB):** For washing.
+- **Loading Beads (LB):** To increase the molecular weight of the DNA. Helps to suck the DNA from the loading port into the flowcell.
+
+---
+
+### Technical Remarks
+
+
+- Double strands are required for nanopore-sequencing, because single strands would stop at the point where you have your adapter (ds position).
+- The nanopore itself is strong enough to open up the ds. A helicase is not necessary.
+- The MinION has 4 pores for 512 channels (in total 2048 pores).
+- During the sequencing the MinION uses only one pore per channel. Every hour the lane will be checked and perhaps the MinION swaps to a different pore.
+- The quality of the reads not decreases at the end of a read like in Illumina Sequencing.
+- Average length 2-10 kb reads. Error Rate <10%, ~5-6% (which comes mostly from the basecalling).
+- Change between template and complement strand is recognized by a specific signal of a site located in the hairpin adapter.
+- [Literature](https://www.researchgate.net/publication/317848322_Nanopore_sequencing_data_analysis_state_of_the_art_applications_and_challenges)
+
+---
+
+### Base Calling
+
+
+- Decoding the raw current signal into a base.
+- Long stretches of the same base might induce a higher error (e.g., Poly-A-Tail problem).
+
+---
+
+### RNA Sequencing
+
+
+- RNA sequencing is possible but so far you need to do a RNA PCR into ds strands (see technical remarks).
+- Also possible is the standard way of a reverse trascription into cDNA and then a cDNA PCR.
+
+---
+
+### Max Scan
+
+
+- It is the name for Nanopore's Current Checking.
+- It will automatically determine which pores has the best electric field.
+- Then the MinION will pick those pores for seqeuncing.
+- This feature is important, since the quality can change over time for the base calling of the each pore.
