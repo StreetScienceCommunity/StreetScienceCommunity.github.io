@@ -66,10 +66,10 @@ In the sequel, we assume you use miniconda.
 2. Clone this GitHub repository:
 
    ```
-   git clone https://github.com/StreetScienceCommunity/StreetScienceCommunity.git
+   git clone https://github.com/StreetScienceCommunity/StreetScienceCommunity.github.io
    ```
 
-3. Navigate to the `StreetScienceCommunity/` folder with `cd`
+3. Navigate to the `StreetScienceCommunity.github.io/` folder with `cd`
 4. Set up the conda environment:
 
    ```
@@ -90,3 +90,8 @@ In the sequel, we assume you use miniconda.
 
 7. Open the website in your favorite browser at:
    [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+
+## How can I generate the PDFs for the protocols locally?
+
+The protocols can be extracted to PDFs in 2 versions: one for participants/pupils with only the instructions, one for the instructors/teachers with instructions and details

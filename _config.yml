@@ -13,6 +13,8 @@ repository: StreetScienceCommunity/StreetScienceCommunity.github.io
 participation_form: https://docs.google.com/forms/d/e/1FAIpQLScNgEDWoftccrUHXhsAOgLCFiG1FAQzQxsSW44uDTrEKwZ7_A/viewform
 google_group: https://groups.google.com/forum/#!forum/streetsciencecommunity
 
+includes_dir: .
+
 collections:
   events:
     permalink: /events/:path/
