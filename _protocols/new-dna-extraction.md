@@ -123,7 +123,7 @@ Now, we want to get the DNA out the yeast. The DNA is well protected by the cell
 - Invert eppy several times gently (>20x)
 - Separate DNA by centrifuging the mixture at 13,000 rcf for 10 minutes. 
 - The DNA should be at the bottom of the eppy (pellet)
-- Remove supernatant (here: liquit above you), being careful not to discard any of the pellet, which is clear and hard to see.
+- Remove supernatant (here: liquid above you pellet), being careful not to discard any of the pellet, which is clear and hard to see.
 
 	DNA is negatively charged, therefore hydrophilic (dissolves in water). The carbon chain of alcohol is hydrophobic, so the DNA is less soluble and precipitates. Isopropanol and ethanol are alcohol. Isopropanol has a longer carbon chain than ethanol (therefore more hydrophobic) and thus precipitates DNA stronger than ethanol.
 The problem is that isopropanol also precipitates salts. To remove salts, we wash the DNA pellet with ethanol in STEP 6. 
