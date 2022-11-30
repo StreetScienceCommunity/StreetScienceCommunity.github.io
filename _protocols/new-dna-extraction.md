@@ -21,7 +21,17 @@ Needed consumables:
 6. Sterile eppis (1.5mL)
 	- 2 per sample
 7. (Falcon) tubes (according to beer volume)
+8. Ice
 
+## Material
+- 1000 ml Erlenmeyer flask
+- Glass pipette (25mL)
+- P1000 pipette and tips
+- P200 pipette and tips
+- P100 pipette and tips
+- Centrifuge (loadable with Falcon tubes)
+- Centrifuge
+- Thermo block
 
 ### Before starting
 - Prewarm DNA Releasing Reagent A and B at 37°C for 5 min 
