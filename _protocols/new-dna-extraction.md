@@ -153,5 +153,5 @@ The problem is that isopropanol also precipitates salts. To remove salts, we was
 - Wash the sides of the tubes until all the genomic DNA is in solution (should take 5 min)
 - Freeze the DNA until library preparation or start directly!
 
-Well done! Now you have successfully extracted beer DNA! [Go on and sequence your extracted DNA]({% link _protocols/beer-dna-sequencing.md %}) or visit the next pub...
+Well done! Now you have successfully extracted beer DNA! [Go on and sequence your extracted DNA]({% link _protocols/beer-dna-sequencing.md %}) or visit the next pub!
 
