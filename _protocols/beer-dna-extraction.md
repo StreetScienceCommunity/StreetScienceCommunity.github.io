@@ -211,7 +211,7 @@ liquid will contain our DNA.
 
 6. Freeze the DNA until library preparation
 
-Well done! Now you have successfully extracted beer DNA! [Go on and sequence your extracted DNA]({% link _protocols/beer-dna-sequencing.md %}) or visit the next pub...
+Well done! Now you have successfully extracted beer DNA! [Go on and sequence your extracted DNA]({% link _protocols/beer-dna-sequencing.md %}) or visit the next pub!
 
 
 
