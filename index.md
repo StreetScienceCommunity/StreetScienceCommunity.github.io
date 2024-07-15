@@ -9,7 +9,7 @@ image: /images/index.jpg
 
 In the Street Science community, we want to make science tangible & accessible
 by bringing it to the "street" via open science workshops. These workshops are
-an excuse to meet, discuss, educate and develop ideas in a neutral, open,
+an excuse to meet, discuss, educate, and develop ideas in a neutral, open,
 noncompetitive and not-for-profit environment.
 
 We are currently mostly organizing [**BeerDEcoded** workshops]({% link _projects/beerdecoded.md %}), 
