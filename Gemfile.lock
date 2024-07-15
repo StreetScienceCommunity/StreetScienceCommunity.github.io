@@ -36,7 +36,7 @@ GEM
     gemoji (3.0.1)
     github-pages (209)
       github-pages-health-check (= 1.16.1)
-      jekyll (= 3.9.0)
+      jekyll (= 4.3.2)
       jekyll-avatar (= 0.7.0)
       jekyll-coffeescript (= 1.1.1)
       jekyll-commonmark-ghpages (= 0.1.6)
