@@ -7,7 +7,7 @@ image: /images/about.jpg
 ## What are we doing?
 
 We are working with teachers, educators and citizens to educate the public about
-open science and particularly with sequencing, data-analysis, molecular biology,
+open science. In particularly about sequencing, data-analysis, molecular biology,
 their benefits and implications.
 
 ## The problem
