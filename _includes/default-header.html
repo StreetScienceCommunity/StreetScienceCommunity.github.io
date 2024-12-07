@@ -45,8 +45,17 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Materials</a>
           <div class="navbar-dropdown">
+            <p class="navbar-item navbar-separator">Slides</p>
             {% for page in site.materials %}
-            <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+              {% if page.type == 'slides' %}
+              <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+              {% endif %}
+            {% endfor %}
+            <p class="navbar-item navbar-separator">Handbooks</p>
+            {% for page in site.materials %}
+              {% if page.type == 'handbook' %}
+              <a class="navbar-item" href="{{ page.url }}"> {{ page.title }} </a>
+              {% endif %}
             {% endfor %}
           </div>
         </div>
