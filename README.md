@@ -1,7 +1,7 @@
 # StreetScienceCommunity
 
 Find all the information about our community and projects at
-[streetscience.community](https://streetscience.community).
+[StreetScienceCommunity.github.io](https://StreetScienceCommunity.github.io).
 
 Our dedicated Galaxy server to perform all kind of data analysis can be accessed
 at https://streetscience.usegalaxy.eu. 
